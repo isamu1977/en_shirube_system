@@ -1,0 +1,409 @@
+[
+  {
+    "id": "swords_ace",
+    "arcana_type": "minor",
+    "suit": "swords",
+    "card_number": 1,
+    "name": { "jp": "剣のエース", "en": "Ace of Swords", "pt": "Ás de Espadas" },
+    "image_url": "/images/cards/swords_ace.png",
+    "element": "Air",
+    "logic_tags": ["truth", "clarity", "decision", "breakthrough", "communication"],
+    "energy_type": "neutral",
+    "relationship_bias": { "fukuen": 1.05, "kataomoi": 1.05, "affair": 1.00 },
+    "meanings": {
+      "upright": {
+        "jp": "真実が見える時。曖昧さを断ち切り、必要な言葉を選ぶことが鍵。",
+        "en": "Clarity and truth. A decisive conversation cuts through confusion.",
+        "pt": "Clareza e verdade. Uma conversa decisiva corta a confusão."
+      },
+      "reversed": {
+        "jp": "言葉が鋭くなりすぎる恐れ。焦って結論を出さず、整理してから伝えると良い。",
+        "en": "Harsh words or mental fog. Pause before making final decisions.",
+        "pt": "Palavras duras ou confusão mental. Pause antes de decidir."
+      }
+    },
+    "keywords": {
+      "jp": ["真実", "決断", "明晰"],
+      "en": ["truth", "decision", "clarity"],
+      "pt": ["verdade", "decisão", "clareza"]
+    }
+  },
+  {
+    "id": "swords_02",
+    "arcana_type": "minor",
+    "suit": "swords",
+    "card_number": 2,
+    "name": { "jp": "剣の2", "en": "Two of Swords", "pt": "Dois de Espadas" },
+    "image_url": "/images/cards/swords_02.png",
+    "element": "Air",
+    "logic_tags": ["indecision", "stalemate", "blocked", "avoidance", "silence"],
+    "energy_type": "tension",
+    "relationship_bias": { "fukuen": 1.10, "kataomoi": 1.05, "affair": 1.00 },
+    "meanings": {
+      "upright": {
+        "jp": "結論を先延ばしにしやすい時。沈黙や距離が続く可能性。",
+        "en": "Indecision and emotional distance. Silence may continue until someone chooses.",
+        "pt": "Indecisão e distância. O silêncio continua até alguém escolher."
+      },
+      "reversed": {
+        "jp": "迷いが限界に達し、現実と向き合う時。答えが見え始めます。",
+        "en": "Facing reality after avoidance. The truth comes out.",
+        "pt": "Encarando a realidade. A verdade aparece."
+      }
+    },
+    "keywords": {
+      "jp": ["迷い", "沈黙", "膠着"],
+      "en": ["indecision", "silence", "stalemate"],
+      "pt": ["indecisão", "silêncio", "impasse"]
+    }
+  },
+  {
+    "id": "swords_03",
+    "arcana_type": "minor",
+    "suit": "swords",
+    "card_number": 3,
+    "name": { "jp": "剣の3", "en": "Three of Swords", "pt": "Três de Espadas" },
+    "image_url": "/images/cards/swords_03.png",
+    "element": "Air",
+    "logic_tags": ["heartbreak", "separation", "painful_truth", "third_party", "grief"],
+    "energy_type": "tension",
+    "relationship_bias": { "fukuen": 1.15, "kataomoi": 0.95, "affair": 1.10 },
+    "meanings": {
+      "upright": {
+        "jp": "胸が痛む現実。別れ・誤解・第三者など、心を傷つける要因が表面化。",
+        "en": "Heartbreak and painful truth. A wound needs acknowledgement before healing.",
+        "pt": "Dor e verdade difícil. Reconhecer a ferida é o início da cura."
+      },
+      "reversed": {
+        "jp": "回復の兆し。痛みを受け止めることで、次の段階へ進めます。",
+        "en": "Healing after heartbreak. Gradual release and recovery.",
+        "pt": "Cura após a dor. Liberação gradual e recuperação."
+      }
+    },
+    "keywords": {
+      "jp": ["失恋", "痛み", "誤解"],
+      "en": ["heartbreak", "pain", "truth"],
+      "pt": ["coração partido", "dor", "verdade"]
+    }
+  },
+  {
+    "id": "swords_04",
+    "arcana_type": "minor",
+    "suit": "swords",
+    "card_number": 4,
+    "name": { "jp": "剣の4", "en": "Four of Swords", "pt": "Quatro de Espadas" },
+    "image_url": "/images/cards/swords_04.png",
+    "element": "Air",
+    "logic_tags": ["pause", "rest", "no_contact", "recovery", "time_needed"],
+    "energy_type": "neutral",
+    "relationship_bias": { "fukuen": 1.15, "kataomoi": 1.00, "affair": 0.95 },
+    "meanings": {
+      "upright": {
+        "jp": "今は動かず整える時。連絡頻度を下げ、心の回復を優先すると良い。",
+        "en": "Rest and recovery. A pause helps you regain clarity before reaching out.",
+        "pt": "Pausa e recuperação. Descanse antes de procurar contato."
+      },
+      "reversed": {
+        "jp": "休めていない状態。焦って動くより、まず自分を整える必要があります。",
+        "en": "Burnout or restless anxiety. Slow down and recover.",
+        "pt": "Ansiedade e cansaço. Reduza o ritmo e se recupere."
+      }
+    },
+    "keywords": {
+      "jp": ["休息", "停止", "回復"],
+      "en": ["rest", "pause", "recovery"],
+      "pt": ["descanso", "pausa", "recuperação"]
+    }
+  },
+  {
+    "id": "swords_05",
+    "arcana_type": "minor",
+    "suit": "swords",
+    "card_number": 5,
+    "name": { "jp": "剣の5", "en": "Five of Swords", "pt": "Cinco de Espadas" },
+    "image_url": "/images/cards/swords_05.png",
+    "element": "Air",
+    "logic_tags": ["conflict", "ego", "win_lose", "resentment", "miscommunication"],
+    "energy_type": "tension",
+    "relationship_bias": { "fukuen": 1.05, "kataomoi": 1.00, "affair": 1.10 },
+    "meanings": {
+      "upright": {
+        "jp": "勝ち負けの争いになりやすい時。正しさよりも、関係を守る選択が必要。",
+        "en": "Conflict and ego. Winning an argument may cost the relationship.",
+        "pt": "Conflito e ego. Ganhar uma discussão pode custar a relação."
+      },
+      "reversed": {
+        "jp": "和解の余地。意地を手放せば、関係を修復できる可能性。",
+        "en": "Opportunity for reconciliation if pride is released.",
+        "pt": "Chance de reconciliação se o orgulho baixar."
+      }
+    },
+    "keywords": {
+      "jp": ["対立", "意地", "不信"],
+      "en": ["conflict", "ego", "resentment"],
+      "pt": ["conflito", "ego", "ressentimento"]
+    }
+  },
+  {
+    "id": "swords_06",
+    "arcana_type": "minor",
+    "suit": "swords",
+    "card_number": 6,
+    "name": { "jp": "剣の6", "en": "Six of Swords", "pt": "Seis de Espadas" },
+    "image_url": "/images/cards/swords_06.png",
+    "element": "Air",
+    "logic_tags": ["transition", "moving_on", "distance", "mental_shift", "healing_process"],
+    "energy_type": "neutral",
+    "relationship_bias": { "fukuen": 1.10, "kataomoi": 1.00, "affair": 0.95 },
+    "meanings": {
+      "upright": {
+        "jp": "状況が少しずつ落ち着く兆し。距離を取ることで関係の再構築が可能。",
+        "en": "Gradual transition toward calmer waters.",
+        "pt": "Transição gradual para um estado mais calmo."
+      },
+      "reversed": {
+        "jp": "前に進めない状態。過去の出来事に引き戻されやすい。",
+        "en": "Difficulty moving forward.",
+        "pt": "Dificuldade em seguir adiante."
+      }
+    },
+    "keywords": {
+      "jp": ["移行", "回復", "距離"],
+      "en": ["transition", "distance", "healing"],
+      "pt": ["transição", "distância", "cura"]
+    }
+  },
+  {
+    "id": "swords_07",
+    "arcana_type": "minor",
+    "suit": "swords",
+    "card_number": 7,
+    "name": { "jp": "剣の7", "en": "Seven of Swords", "pt": "Sete de Espadas" },
+    "image_url": "/images/cards/swords_07.png",
+    "element": "Air",
+    "logic_tags": ["deception", "secrets", "avoidance", "strategy", "hidden_intent"],
+    "energy_type": "tension",
+    "relationship_bias": { "fukuen": 1.00, "kataomoi": 0.95, "affair": 1.20 },
+    "meanings": {
+      "upright": {
+        "jp": "隠し事や本音を言わない傾向。信頼関係の再確認が必要。",
+        "en": "Secrets or strategic avoidance.",
+        "pt": "Segredos ou evasão estratégica."
+      },
+      "reversed": {
+        "jp": "真実が明るみに出る可能性。隠していた感情が表面化。",
+        "en": "Truth revealed.",
+        "pt": "A verdade vem à tona."
+      }
+    },
+    "keywords": {
+      "jp": ["隠し事", "策略", "不信"],
+      "en": ["secrets", "strategy", "deception"],
+      "pt": ["segredos", "estratégia", "engano"]
+    }
+  },
+  {
+    "id": "swords_08",
+    "arcana_type": "minor",
+    "suit": "swords",
+    "card_number": 8,
+    "name": { "jp": "剣の8", "en": "Eight of Swords", "pt": "Oito de Espadas" },
+    "image_url": "/images/cards/swords_08.png",
+    "element": "Air",
+    "logic_tags": ["restriction", "anxiety", "mental_block", "self_limiting", "stagnation"],
+    "energy_type": "tension",
+    "relationship_bias": { "fukuen": 1.15, "kataomoi": 1.05, "affair": 1.00 },
+    "meanings": {
+      "upright": {
+        "jp": "不安や思い込みに縛られている状態。視点を変える必要があります。",
+        "en": "Feeling trapped by thoughts.",
+        "pt": "Sentindo-se preso pelos próprios pensamentos."
+      },
+      "reversed": {
+        "jp": "制限からの解放。少しずつ視界が開ける兆し。",
+        "en": "Breaking free from mental restrictions.",
+        "pt": "Libertação das limitações mentais."
+      }
+    },
+    "keywords": {
+      "jp": ["不安", "制限", "思い込み"],
+      "en": ["restriction", "anxiety", "block"],
+      "pt": ["restrição", "ansiedade", "bloqueio"]
+    }
+  },
+  {
+    "id": "swords_09",
+    "arcana_type": "minor",
+    "suit": "swords",
+    "card_number": 9,
+    "name": { "jp": "剣の9", "en": "Nine of Swords", "pt": "Nove de Espadas" },
+    "image_url": "/images/cards/swords_09.png",
+    "element": "Air",
+    "logic_tags": ["worry", "guilt", "insomnia", "fear", "mental_stress"],
+    "energy_type": "tension",
+    "relationship_bias": { "fukuen": 1.20, "kataomoi": 1.05, "affair": 1.00 },
+    "meanings": {
+      "upright": {
+        "jp": "考えすぎによる不安。事実以上に恐れている可能性があります。",
+        "en": "Anxiety and overthinking.",
+        "pt": "Ansiedade e excesso de preocupação."
+      },
+      "reversed": {
+        "jp": "心の重荷が軽くなる兆し。現実的な視点が戻る。",
+        "en": "Release from worry.",
+        "pt": "Alívio da preocupação."
+      }
+    },
+    "keywords": {
+      "jp": ["不安", "後悔", "恐れ"],
+      "en": ["worry", "fear", "guilt"],
+      "pt": ["preocupação", "medo", "culpa"]
+    }
+  },
+  {
+    "id": "swords_10",
+    "arcana_type": "minor",
+    "suit": "swords",
+    "card_number": 10,
+    "name": { "jp": "剣の10", "en": "Ten of Swords", "pt": "Dez de Espadas" },
+    "image_url": "/images/cards/swords_10.png",
+    "element": "Air",
+    "logic_tags": ["ending", "rock_bottom", "betrayal", "painful_end", "finality"],
+    "energy_type": "tension",
+    "relationship_bias": { "fukuen": 1.10, "kataomoi": 0.90, "affair": 1.15 },
+    "meanings": {
+      "upright": {
+        "jp": "ひとつの終わり。強い痛みの後に再生の可能性が訪れます。",
+        "en": "Painful ending but also the end of suffering.",
+        "pt": "Fim doloroso, mas também o fim do sofrimento."
+      },
+      "reversed": {
+        "jp": "完全な終わりを避けたい気持ち。まだ未練が残る状態。",
+        "en": "Resisting closure.",
+        "pt": "Resistência ao encerramento."
+      }
+    },
+    "keywords": {
+      "jp": ["終焉", "裏切り", "限界"],
+      "en": ["ending", "betrayal", "finality"],
+      "pt": ["fim", "traição", "final"]
+    }
+  },
+ {
+    "id": "swords_page",
+    "arcana_type": "minor",
+    "suit": "swords",
+    "card_number": 11,
+    "name": { "jp": "剣のペイジ", "en": "Page of Swords", "pt": "Pajem de Espadas" },
+    "image_url": "/images/cards/swords_page.png",
+    "element": "Air",
+    "logic_tags": ["curiosity", "watching", "communication", "immaturity", "mental_energy"],
+    "energy_type": "neutral",
+    "relationship_bias": { "fukuen": 1.10, "kataomoi": 1.15, "affair": 1.00 },
+    "meanings": {
+      "upright": {
+        "jp": "様子を見ている状態。相手はあなたのことを気にしていますが、まだ行動には移していません。",
+        "en": "Watching and gathering information.",
+        "pt": "Observando e analisando antes de agir."
+      },
+      "reversed": {
+        "jp": "軽率な発言や誤解。未熟なコミュニケーションに注意。",
+        "en": "Immature communication or misunderstandings.",
+        "pt": "Comunicação imatura ou mal-entendidos."
+      }
+    },
+    "keywords": {
+      "jp": ["観察", "好奇心", "連絡"],
+      "en": ["curiosity", "watching", "message"],
+      "pt": ["curiosidade", "observação", "mensagem"]
+    }
+  },
+  {
+    "id": "swords_knight",
+    "arcana_type": "minor",
+    "suit": "swords",
+    "card_number": 12,
+    "name": { "jp": "剣のナイト", "en": "Knight of Swords", "pt": "Cavaleiro de Espadas" },
+    "image_url": "/images/cards/swords_knight.png",
+    "element": "Air",
+    "logic_tags": ["impulsive", "direct_action", "confrontation", "fast_movement", "intense_words"],
+    "energy_type": "tension",
+    "relationship_bias": { "fukuen": 1.05, "kataomoi": 0.95, "affair": 1.10 },
+    "meanings": {
+      "upright": {
+        "jp": "急な連絡や突然の行動。勢いがあるが、配慮に欠ける面も。",
+        "en": "Sudden action or direct communication.",
+        "pt": "Ação rápida ou comunicação direta."
+      },
+      "reversed": {
+        "jp": "衝動的すぎる言動。争いになりやすい時期。",
+        "en": "Reckless or aggressive behavior.",
+        "pt": "Comportamento impulsivo ou agressivo."
+      }
+    },
+    "keywords": {
+      "jp": ["突発", "勢い", "直球"],
+      "en": ["impulse", "speed", "directness"],
+      "pt": ["impulso", "rapidez", "direto"]
+    }
+  },
+  {
+    "id": "swords_queen",
+    "arcana_type": "minor",
+    "suit": "swords",
+    "card_number": 13,
+    "name": { "jp": "剣のクイーン", "en": "Queen of Swords", "pt": "Rainha de Espadas" },
+    "image_url": "/images/cards/swords_queen.png",
+    "element": "Air",
+    "logic_tags": ["independent", "clear_boundaries", "truth", "rational", "emotional_distance"],
+    "energy_type": "neutral",
+    "relationship_bias": { "fukuen": 1.15, "kataomoi": 1.00, "affair": 0.95 },
+    "meanings": {
+      "upright": {
+        "jp": "冷静で理性的。感情よりも事実を優先する姿勢。",
+        "en": "Clear-minded and independent.",
+        "pt": "Clareza mental e independência emocional."
+      },
+      "reversed": {
+        "jp": "冷たくなりすぎている状態。心を閉ざしている可能性。",
+        "en": "Emotionally distant or overly critical.",
+        "pt": "Distanciamento emocional ou frieza excessiva."
+      }
+    },
+    "keywords": {
+      "jp": ["理性", "自立", "境界線"],
+      "en": ["independent", "truth", "boundaries"],
+      "pt": ["independência", "verdade", "limites"]
+    }
+  },
+  {
+    "id": "swords_king",
+    "arcana_type": "minor",
+    "suit": "swords",
+    "card_number": 14,
+    "name": { "jp": "剣のキング", "en": "King of Swords", "pt": "Rei de Espadas" },
+    "image_url": "/images/cards/swords_king.png",
+    "element": "Air",
+    "logic_tags": ["authority", "logic", "strategy", "emotional_control", "decision"],
+    "energy_type": "neutral",
+    "relationship_bias": { "fukuen": 1.20, "kataomoi": 0.95, "affair": 1.05 },
+    "meanings": {
+      "upright": {
+        "jp": "理論的で判断力がある人物。感情を抑えて状況を見ています。",
+        "en": "Strategic and intellectually controlled.",
+        "pt": "Estratégico e racional."
+      },
+      "reversed": {
+        "jp": "支配的または冷酷な態度。感情を無視している可能性。",
+        "en": "Cold or overly controlling behavior.",
+        "pt": "Frieza ou controle excessivo."
+      }
+    },
+    "keywords": {
+      "jp": ["判断", "支配", "理論"],
+      "en": ["authority", "logic", "decision"],
+      "pt": ["autoridade", "lógica", "decisão"]
+    }
+  }
+  ]
+

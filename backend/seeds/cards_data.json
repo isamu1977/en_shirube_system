@@ -1,0 +1,9 @@
+backend/
+  seeds/
+    cards/
+      major.json
+      cups.json
+      wands.json
+      swords.json
+      pentacles.json
+    cards_data.json         # (gerado automaticamente)

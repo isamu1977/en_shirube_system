@@ -1,0 +1,408 @@
+[
+  {
+    "id": "wands_ace",
+    "arcana_type": "minor",
+    "suit": "wands",
+    "card_number": 1,
+    "name": { "jp": "ワンドのエース", "en": "Ace of Wands", "pt": "Ás de Paus" },
+    "image_url": "/images/cards/wands_ace.png",
+    "element": "Fire",
+    "logic_tags": ["passion", "new_attraction", "sexual_energy", "spark", "initiative"],
+    "energy_type": "positive",
+    "relationship_bias": { "fukuen": 1.20, "kataomoi": 1.25, "affair": 1.30 },
+    "meanings": {
+      "upright": {
+        "jp": "強い情熱の始まり。再び火がつく可能性。",
+        "en": "A new spark of passion.",
+        "pt": "Novo impulso de paixão."
+      },
+      "reversed": {
+        "jp": "情熱が弱まっている。行動に移せない状態。",
+        "en": "Lack of drive or fading attraction.",
+        "pt": "Falta de energia ou atração enfraquecida."
+      }
+    },
+    "keywords": {
+      "jp": ["情熱", "始まり", "魅力"],
+      "en": ["passion", "spark", "attraction"],
+      "pt": ["paixão", "faísca", "atração"]
+    }
+  },
+  {
+    "id": "wands_02",
+    "arcana_type": "minor",
+    "suit": "wands",
+    "card_number": 2,
+    "name": { "jp": "ワンドの2", "en": "Two of Wands", "pt": "Dois de Paus" },
+    "image_url": "/images/cards/wands_02.png",
+    "element": "Fire",
+    "logic_tags": ["planning", "decision", "future_path", "waiting"],
+    "energy_type": "neutral",
+    "relationship_bias": { "fukuen": 1.10, "kataomoi": 1.10, "affair": 1.05 },
+    "meanings": {
+      "upright": {
+        "jp": "将来を考えているが、まだ決断していない。",
+        "en": "Planning the next move.",
+        "pt": "Pensando no próximo passo."
+      },
+      "reversed": {
+        "jp": "優柔不断。進展が遅い。",
+        "en": "Indecision or hesitation.",
+        "pt": "Indecisão ou atraso."
+      }
+    },
+    "keywords": {
+      "jp": ["計画", "選択", "未来"],
+      "en": ["planning", "choice", "future"],
+      "pt": ["planejamento", "escolha", "futuro"]
+    }
+  },
+  {
+    "id": "wands_03",
+    "arcana_type": "minor",
+    "suit": "wands",
+    "card_number": 3,
+    "name": { "jp": "ワンドの3", "en": "Three of Wands", "pt": "Três de Paus" },
+    "image_url": "/images/cards/wands_03.png",
+    "element": "Fire",
+    "logic_tags": ["progress", "anticipation", "long_distance", "growth"],
+    "energy_type": "positive",
+    "relationship_bias": { "fukuen": 1.15, "kataomoi": 1.20, "affair": 1.10 },
+    "meanings": {
+      "upright": {
+        "jp": "進展の兆し。相手は前向きに考え始めている。",
+        "en": "Positive movement forward.",
+        "pt": "Avanço positivo na relação."
+      },
+      "reversed": {
+        "jp": "期待外れ。思ったほど進まない。",
+        "en": "Delays or unmet expectations.",
+        "pt": "Atrasos ou frustração."
+      }
+    },
+    "keywords": {
+      "jp": ["進展", "期待", "前向き"],
+      "en": ["progress", "growth", "anticipation"],
+      "pt": ["progresso", "crescimento", "expectativa"]
+    }
+  },
+  {
+    "id": "wands_04",
+    "arcana_type": "minor",
+    "suit": "wands",
+    "card_number": 4,
+    "name": { "jp": "ワンドの4", "en": "Four of Wands", "pt": "Quatro de Paus" },
+    "image_url": "/images/cards/wands_04.png",
+    "element": "Fire",
+    "logic_tags": ["stability", "relationship_foundation", "celebration", "commitment"],
+    "energy_type": "positive",
+    "relationship_bias": { "fukuen": 1.25, "kataomoi": 1.15, "affair": 0.95 },
+    "meanings": {
+      "upright": {
+        "jp": "安定した関係。結婚・同棲の可能性。",
+        "en": "Stable and joyful relationship.",
+        "pt": "Estabilidade e possibilidade de compromisso."
+      },
+      "reversed": {
+        "jp": "不安定な基盤。関係の土台が揺らぐ。",
+        "en": "Unstable foundation.",
+        "pt": "Base instável na relação."
+      }
+    },
+    "keywords": {
+      "jp": ["安定", "祝福", "家庭"],
+      "en": ["stability", "celebration", "commitment"],
+      "pt": ["estabilidade", "celebração", "compromisso"]
+    }
+  },
+  {
+    "id": "wands_05",
+    "arcana_type": "minor",
+    "suit": "wands",
+    "card_number": 5,
+    "name": { "jp": "ワンドの5", "en": "Five of Wands", "pt": "Cinco de Paus" },
+    "image_url": "/images/cards/wands_05.png",
+    "element": "Fire",
+    "logic_tags": ["competition", "conflict", "rival", "tension"],
+    "energy_type": "tension",
+    "relationship_bias": { "fukuen": 0.95, "kataomoi": 0.90, "affair": 1.15 },
+    "meanings": {
+      "upright": {
+        "jp": "ライバルの存在。感情のぶつかり合い。",
+        "en": "Conflict or competition.",
+        "pt": "Conflito ou rivalidade."
+      },
+      "reversed": {
+        "jp": "誤解が解ける可能性。争いの収束。",
+        "en": "Conflict resolving.",
+        "pt": "Conflitos diminuindo."
+      }
+    },
+    "keywords": {
+      "jp": ["争い", "競争", "対立"],
+      "en": ["competition", "conflict", "tension"],
+      "pt": ["competição", "conflito", "tensão"]
+    }
+  },
+  {
+    "id": "wands_06",
+    "arcana_type": "minor",
+    "suit": "wands",
+    "card_number": 6,
+    "name": { "jp": "ワンドの6", "en": "Six of Wands", "pt": "Seis de Paus" },
+    "image_url": "/images/cards/wands_06.png",
+    "element": "Fire",
+    "logic_tags": ["victory", "recognition", "success", "public_acknowledgment"],
+    "energy_type": "positive",
+    "relationship_bias": { "fukuen": 1.30, "kataomoi": 1.20, "affair": 1.10 },
+    "meanings": {
+      "upright": {
+        "jp": "復縁成功の兆し。相手からの連絡や好意の再確認。",
+        "en": "Victory and recognition in love.",
+        "pt": "Vitória e reconhecimento no relacionamento."
+      },
+      "reversed": {
+        "jp": "期待外れ。思ったほど進展しない。",
+        "en": "Delayed success or lack of recognition.",
+        "pt": "Reconhecimento atrasado ou sucesso adiado."
+      }
+    },
+    "keywords": {
+      "jp": ["成功", "勝利", "認知"],
+      "en": ["victory", "success", "recognition"],
+      "pt": ["vitória", "sucesso", "reconhecimento"]
+    }
+  },
+  {
+    "id": "wands_07",
+    "arcana_type": "minor",
+    "suit": "wands",
+    "card_number": 7,
+    "name": { "jp": "ワンドの7", "en": "Seven of Wands", "pt": "Sete de Paus" },
+    "image_url": "/images/cards/wands_07.png",
+    "element": "Fire",
+    "logic_tags": ["defense", "competition", "protecting_position", "challenge"],
+    "energy_type": "tension",
+    "relationship_bias": { "fukuen": 1.05, "kataomoi": 1.00, "affair": 1.10 },
+    "meanings": {
+      "upright": {
+        "jp": "相手は葛藤中。周囲の影響やライバルの存在。",
+        "en": "Defending feelings or position.",
+        "pt": "Defendendo seus sentimentos."
+      },
+      "reversed": {
+        "jp": "疲労感。守りきれない状態。",
+        "en": "Feeling overwhelmed.",
+        "pt": "Sentindo-se sobrecarregado."
+      }
+    },
+    "keywords": {
+      "jp": ["防御", "葛藤", "競争"],
+      "en": ["defense", "competition", "challenge"],
+      "pt": ["defesa", "competição", "desafio"]
+    }
+  },
+  {
+    "id": "wands_08",
+    "arcana_type": "minor",
+    "suit": "wands",
+    "card_number": 8,
+    "name": { "jp": "ワンドの8", "en": "Eight of Wands", "pt": "Oito de Paus" },
+    "image_url": "/images/cards/wands_08.png",
+    "element": "Fire",
+    "logic_tags": ["rapid_movement", "incoming_message", "fast_progress", "travel"],
+    "energy_type": "positive",
+    "relationship_bias": { "fukuen": 1.35, "kataomoi": 1.25, "affair": 1.20 },
+    "meanings": {
+      "upright": {
+        "jp": "急展開。連絡が来る可能性大。",
+        "en": "Rapid progress or incoming message.",
+        "pt": "Avanço rápido ou mensagem chegando."
+      },
+      "reversed": {
+        "jp": "遅延や誤解による停滞。",
+        "en": "Delays or blocked communication.",
+        "pt": "Atrasos ou bloqueio na comunicação."
+      }
+    },
+    "keywords": {
+      "jp": ["急展開", "連絡", "進展"],
+      "en": ["movement", "message", "speed"],
+      "pt": ["movimento", "mensagem", "rapidez"]
+    }
+  },
+  {
+    "id": "wands_09",
+    "arcana_type": "minor",
+    "suit": "wands",
+    "card_number": 9,
+    "name": { "jp": "ワンドの9", "en": "Nine of Wands", "pt": "Nove de Paus" },
+    "image_url": "/images/cards/wands_09.png",
+    "element": "Fire",
+    "logic_tags": ["resilience", "last_stand", "emotional_walls", "fatigue"],
+    "energy_type": "neutral",
+    "relationship_bias": { "fukuen": 1.15, "kataomoi": 0.95, "affair": 1.05 },
+    "meanings": {
+      "upright": {
+        "jp": "まだ諦めていないが、心に壁を作っている。",
+        "en": "Guarded but not giving up.",
+        "pt": "Ainda resiste, mas está cauteloso."
+      },
+      "reversed": {
+        "jp": "疲れ切っている。限界が近い。",
+        "en": "Exhaustion or emotional burnout.",
+        "pt": "Esgotamento emocional."
+      }
+    },
+    "keywords": {
+      "jp": ["忍耐", "防御", "疲労"],
+      "en": ["resilience", "guarded", "fatigue"],
+      "pt": ["resistência", "cautela", "cansaço"]
+    }
+  },
+  {
+    "id": "wands_10",
+    "arcana_type": "minor",
+    "suit": "wands",
+    "card_number": 10,
+    "name": { "jp": "ワンドの10", "en": "Ten of Wands", "pt": "Dez de Paus" },
+    "image_url": "/images/cards/wands_10.png",
+    "element": "Fire",
+    "logic_tags": ["burden", "overwhelmed", "stress", "too_much_responsibility"],
+    "energy_type": "tension",
+    "relationship_bias": { "fukuen": 0.90, "kataomoi": 0.85, "affair": 1.00 },
+    "meanings": {
+      "upright": {
+        "jp": "負担が大きすぎる。関係に疲れている。",
+        "en": "Feeling overwhelmed in the relationship.",
+        "pt": "Sentindo o peso excessivo da relação."
+      },
+      "reversed": {
+        "jp": "負担からの解放。軽くなる兆し。",
+        "en": "Releasing burdens.",
+        "pt": "Libertando-se do peso."
+      }
+    },
+    "keywords": {
+      "jp": ["重荷", "責任", "疲労"],
+      "en": ["burden", "stress", "overload"],
+      "pt": ["peso", "estresse", "sobrecarga"]
+    }
+  },
+  {
+    "id": "wands_page",
+    "arcana_type": "minor",
+    "suit": "wands",
+    "card_number": 11,
+    "name": { "jp": "ワンドのペイジ", "en": "Page of Wands", "pt": "Pajem de Paus" },
+    "image_url": "/images/cards/wands_page.png",
+    "element": "Fire",
+    "logic_tags": ["message", "spark", "curiosity", "new_start", "flirt"],
+    "energy_type": "positive",
+    "relationship_bias": { "fukuen": 1.10, "kataomoi": 1.25, "affair": 1.15 },
+    "meanings": {
+      "upright": {
+        "jp": "軽やかな動きの兆し。連絡・誘い・興味が生まれやすい時。",
+        "en": "A playful spark. A message or invitation may appear.",
+        "pt": "Uma faísca leve. Pode surgir mensagem ou convite."
+      },
+      "reversed": {
+        "jp": "熱しやすく冷めやすい。口だけで行動が伴わない可能性。",
+        "en": "Inconsistent passion. Promises without follow-through.",
+        "pt": "Paixão instável. Promessas sem ação."
+      }
+    },
+    "keywords": {
+      "jp": ["連絡", "好奇心", "誘い"],
+      "en": ["message", "spark", "invitation"],
+      "pt": ["mensagem", "faísca", "convite"]
+    }
+  },
+  {
+    "id": "wands_knight",
+    "arcana_type": "minor",
+    "suit": "wands",
+    "card_number": 12,
+    "name": { "jp": "ワンドのナイト", "en": "Knight of Wands", "pt": "Cavaleiro de Paus" },
+    "image_url": "/images/cards/wands_knight.png",
+    "element": "Fire",
+    "logic_tags": ["sexual_energy", "impulsive_action", "seduction", "chase", "hot_cold"],
+    "energy_type": "positive",
+    "relationship_bias": { "fukuen": 1.20, "kataomoi": 1.10, "affair": 1.35 },
+    "meanings": {
+      "upright": {
+        "jp": "情熱的なアプローチ。急に距離が縮まる可能性。",
+        "en": "Bold passion and pursuit. Things heat up quickly.",
+        "pt": "Paixão intensa e iniciativa. As coisas aceleram rápido."
+      },
+      "reversed": {
+        "jp": "衝動的で不安定。熱量はあるが、継続性に欠ける。",
+        "en": "Hot-and-cold behavior. Passion without stability.",
+        "pt": "Comportamento instável. Paixão sem constância."
+      }
+    },
+    "keywords": {
+      "jp": ["情熱", "衝動", "誘惑"],
+      "en": ["passion", "impulse", "seduction"],
+      "pt": ["paixão", "impulso", "sedução"]
+    }
+  },
+  {
+    "id": "wands_queen",
+    "arcana_type": "minor",
+    "suit": "wands",
+    "card_number": 13,
+    "name": { "jp": "ワンドのクイーン", "en": "Queen of Wands", "pt": "Rainha de Paus" },
+    "image_url": "/images/cards/wands_queen.png",
+    "element": "Fire",
+    "logic_tags": ["confidence", "attractiveness", "magnetism", "self_value", "charm"],
+    "energy_type": "positive",
+    "relationship_bias": { "fukuen": 1.15, "kataomoi": 1.20, "affair": 1.10 },
+    "meanings": {
+      "upright": {
+        "jp": "自信と魅力が高まる時。相手の視線を引き寄せる存在。",
+        "en": "Confidence and magnetism. You naturally attract attention.",
+        "pt": "Confiança e magnetismo. Você atrai naturalmente."
+      },
+      "reversed": {
+        "jp": "不安から魅力が揺らぐ。嫉妬や焦りに注意。",
+        "en": "Insecurity, jealousy, or self-doubt.",
+        "pt": "Insegurança, ciúme ou dúvida sobre si."
+      }
+    },
+    "keywords": {
+      "jp": ["自信", "魅力", "華やかさ"],
+      "en": ["confidence", "magnetism", "charm"],
+      "pt": ["confiança", "magnetismo", "charme"]
+    }
+  },
+  {
+    "id": "wands_king",
+    "arcana_type": "minor",
+    "suit": "wands",
+    "card_number": 14,
+    "name": { "jp": "ワンドのキング", "en": "King of Wands", "pt": "Rei de Paus" },
+    "image_url": "/images/cards/wands_king.png",
+    "element": "Fire",
+    "logic_tags": ["leadership", "dominant_energy", "decisive_action", "strong_desire", "initiative"],
+    "energy_type": "positive",
+    "relationship_bias": { "fukuen": 1.20, "kataomoi": 1.00, "affair": 1.15 },
+    "meanings": {
+      "upright": {
+        "jp": "主導権を握る人物。強い意志で関係を動かす可能性。",
+        "en": "Decisive leadership. Someone takes initiative to move things forward.",
+        "pt": "Energia decisiva. Alguém assume a liderança e movimenta a relação."
+      },
+      "reversed": {
+        "jp": "支配的・短気になりやすい。自分の欲を優先する傾向。",
+        "en": "Controlling or self-centered passion.",
+        "pt": "Paixão controladora ou egoísta."
+      }
+    },
+    "keywords": {
+      "jp": ["主導権", "決断", "情熱"],
+      "en": ["leadership", "decision", "passion"],
+      "pt": ["liderança", "decisão", "paixão"]
+    }
+  }
+]

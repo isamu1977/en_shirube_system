@@ -1,0 +1,408 @@
+[
+  {
+    "id": "cups_ace",
+    "arcana_type": "minor",
+    "suit": "cups",
+    "card_number": 1,
+    "name": { "jp": "聖杯のエース", "en": "Ace of Cups", "pt": "Ás de Copas" },
+    "image_url": "/images/cards/cups_ace.png",
+    "element": "Water",
+    "logic_tags": ["new_love", "emotional_beginning", "healing", "openness", "potential"],
+    "energy_type": "positive",
+    "relationship_bias": { "fukuen": 1.05, "kataomoi": 1.15, "affair": 1.00 },
+    "meanings": {
+      "upright": {
+        "jp": "新しい感情の芽生え。素直な気持ちが関係を動かします。",
+        "en": "A new emotional beginning. Openness invites connection.",
+        "pt": "Novo começo emocional. Expressar sentimentos pode abrir caminhos."
+      },
+      "reversed": {
+        "jp": "感情を閉じやすい時。期待よりも自己整理が必要です。",
+        "en": "Blocked emotions. Clarify feelings before acting.",
+        "pt": "Sentimentos bloqueados. Organize o coração antes de agir."
+      }
+    },
+    "keywords": {
+      "jp": ["愛の始まり", "感情", "直感"],
+      "en": ["new love", "emotion", "intuition"],
+      "pt": ["novo amor", "emoção", "intuição"]
+    }
+  },
+  {
+    "id": "cups_02",
+    "arcana_type": "minor",
+    "suit": "cups",
+    "card_number": 2,
+    "name": { "jp": "聖杯の2", "en": "Two of Cups", "pt": "Dois de Copas" },
+    "image_url": "/images/cards/cups_02.png",
+    "element": "Water",
+    "logic_tags": ["connection", "mutual_feelings", "emotional_bond"],
+    "energy_type": "positive",
+    "relationship_bias": { "fukuen": 1.15, "kataomoi": 1.10, "affair": 1.05 },
+    "meanings": {
+      "upright": {
+        "jp": "心が通じ合う可能性。相互理解が深まる兆し。",
+        "en": "Mutual attraction and harmony.",
+        "pt": "Sentimentos mútuos e harmonia."
+      },
+      "reversed": {
+        "jp": "気持ちのすれ違い。歩み寄りが必要です。",
+        "en": "Misalignment in feelings.",
+        "pt": "Desalinhamento emocional."
+      }
+    },
+    "keywords": {
+      "jp": ["相思相愛", "調和", "絆"],
+      "en": ["mutual love", "harmony", "bond"],
+      "pt": ["amor mútuo", "harmonia", "vínculo"]
+    }
+  },
+  {
+    "id": "cups_03",
+    "arcana_type": "minor",
+    "suit": "cups",
+    "card_number": 3,
+    "name": { "jp": "聖杯の3", "en": "Three of Cups", "pt": "Três de Copas" },
+    "image_url": "/images/cards/cups_03.png",
+    "element": "Water",
+    "logic_tags": ["celebration", "third_party", "friendship", "joy"],
+    "energy_type": "neutral",
+    "relationship_bias": { "fukuen": 1.00, "kataomoi": 0.95, "affair": 1.10 },
+    "meanings": {
+      "upright": {
+        "jp": "楽しい交流や再会の兆し。関係が軽やかに動く可能性。",
+        "en": "Celebration and joyful interaction.",
+        "pt": "Celebração e reencontro."
+      },
+      "reversed": {
+        "jp": "第三者の影響や軽い関係に注意。",
+        "en": "Third-party influence or superficial bond.",
+        "pt": "Influência de terceiros."
+      }
+    },
+    "keywords": {
+      "jp": ["祝福", "再会", "友情"],
+      "en": ["celebration", "reunion", "friendship"],
+      "pt": ["celebração", "reencontro", "amizade"]
+    }
+  },
+  {
+    "id": "cups_04",
+    "arcana_type": "minor",
+    "suit": "cups",
+    "card_number": 4,
+    "name": { "jp": "聖杯の4", "en": "Four of Cups", "pt": "Quatro de Copas" },
+    "image_url": "/images/cards/cups_04.png",
+    "element": "Water",
+    "logic_tags": ["apathy", "emotional_block", "hesitation", "missed_opportunity"],
+    "energy_type": "tension",
+    "relationship_bias": { "fukuen": 1.10, "kataomoi": 1.05, "affair": 1.00 },
+    "meanings": {
+      "upright": {
+        "jp": "心が停滞しやすい状態。チャンスを見逃さない意識が必要。",
+        "en": "Emotional withdrawal.",
+        "pt": "Afastamento emocional."
+      },
+      "reversed": {
+        "jp": "再び心が動き始める兆し。",
+        "en": "Renewed openness.",
+        "pt": "Abertura renovada."
+      }
+    },
+    "keywords": {
+      "jp": ["無関心", "停滞", "再考"],
+      "en": ["apathy", "stagnation", "reflection"],
+      "pt": ["apatia", "estagnação", "reflexão"]
+    }
+  },
+  {
+    "id": "cups_05",
+    "arcana_type": "minor",
+    "suit": "cups",
+    "card_number": 5,
+    "name": { "jp": "聖杯の5", "en": "Five of Cups", "pt": "Cinco de Copas" },
+    "image_url": "/images/cards/cups_05.png",
+    "element": "Water",
+    "logic_tags": ["regret", "sadness", "emotional_loss", "disappointment"],
+    "energy_type": "tension",
+    "relationship_bias": { "fukuen": 1.15, "kataomoi": 1.00, "affair": 1.05 },
+    "meanings": {
+      "upright": {
+        "jp": "後悔や悲しみが強い状態。ただしまだ可能性は残っています。",
+        "en": "Regret and emotional loss.",
+        "pt": "Arrependimento e tristeza."
+      },
+      "reversed": {
+        "jp": "立ち直りの兆し。過去を乗り越える動き。",
+        "en": "Emotional recovery.",
+        "pt": "Recuperação emocional."
+      }
+    },
+    "keywords": {
+      "jp": ["後悔", "喪失", "悲しみ"],
+      "en": ["regret", "loss", "sadness"],
+      "pt": ["arrependimento", "perda", "tristeza"]
+    }
+  },
+  {
+    "id": "cups_06",
+    "arcana_type": "minor",
+    "suit": "cups",
+    "card_number": 6,
+    "name": { "jp": "聖杯の6", "en": "Six of Cups", "pt": "Seis de Copas" },
+    "image_url": "/images/cards/cups_06.png",
+    "element": "Water",
+    "logic_tags": ["nostalgia", "past_connection", "reunion", "innocence"],
+    "energy_type": "positive",
+    "relationship_bias": { "fukuen": 1.20, "kataomoi": 0.95, "affair": 0.90 },
+    "meanings": {
+      "upright": {
+        "jp": "過去の縁や思い出が再び浮上する兆し。復縁の可能性を示すカード。",
+        "en": "Past memories and possible reunion.",
+        "pt": "Memórias do passado e possível reencontro."
+      },
+      "reversed": {
+        "jp": "過去への執着。前に進むためには手放しが必要。",
+        "en": "Clinging to the past.",
+        "pt": "Apego ao passado."
+      }
+    },
+    "keywords": {
+      "jp": ["懐かしさ", "再会", "過去の縁"],
+      "en": ["nostalgia", "reunion", "past love"],
+      "pt": ["nostalgia", "reencontro", "amor do passado"]
+    }
+  },
+  {
+    "id": "cups_07",
+    "arcana_type": "minor",
+    "suit": "cups",
+    "card_number": 7,
+    "name": { "jp": "聖杯の7", "en": "Seven of Cups", "pt": "Sete de Copas" },
+    "image_url": "/images/cards/cups_07.png",
+    "element": "Water",
+    "logic_tags": ["illusion", "confusion", "multiple_options", "fantasy"],
+    "energy_type": "tension",
+    "relationship_bias": { "fukuen": 1.00, "kataomoi": 1.05, "affair": 1.10 },
+    "meanings": {
+      "upright": {
+        "jp": "迷いや幻想が強い状態。本質を見極める必要があります。",
+        "en": "Confusion and illusion.",
+        "pt": "Confusão e ilusões."
+      },
+      "reversed": {
+        "jp": "迷いが晴れ、現実的な選択が可能になる兆し。",
+        "en": "Clarity after confusion.",
+        "pt": "Clareza após a confusão."
+      }
+    },
+    "keywords": {
+      "jp": ["幻想", "迷い", "選択肢"],
+      "en": ["illusion", "choices", "confusion"],
+      "pt": ["ilusão", "escolhas", "confusão"]
+    }
+  },
+  {
+    "id": "cups_08",
+    "arcana_type": "minor",
+    "suit": "cups",
+    "card_number": 8,
+    "name": { "jp": "聖杯の8", "en": "Eight of Cups", "pt": "Oito de Copas" },
+    "image_url": "/images/cards/cups_08.png",
+    "element": "Water",
+    "logic_tags": ["withdrawal", "emotional_distance", "departure", "searching"],
+    "energy_type": "tension",
+    "relationship_bias": { "fukuen": 1.10, "kataomoi": 1.00, "affair": 1.05 },
+    "meanings": {
+      "upright": {
+        "jp": "感情的な距離を取ろうとする動き。離れることで見える真実。",
+        "en": "Emotional withdrawal.",
+        "pt": "Distanciamento emocional."
+      },
+      "reversed": {
+        "jp": "離れられない未練。心が揺れ続ける状態。",
+        "en": "Difficulty letting go.",
+        "pt": "Dificuldade em deixar ir."
+      }
+    },
+    "keywords": {
+      "jp": ["離別", "距離", "探求"],
+      "en": ["departure", "distance", "searching"],
+      "pt": ["afastamento", "distância", "busca"]
+    }
+  },
+  {
+    "id": "cups_09",
+    "arcana_type": "minor",
+    "suit": "cups",
+    "card_number": 9,
+    "name": { "jp": "聖杯の9", "en": "Nine of Cups", "pt": "Nove de Copas" },
+    "image_url": "/images/cards/cups_09.png",
+    "element": "Water",
+    "logic_tags": ["wish_fulfillment", "satisfaction", "desire", "emotional_contentment"],
+    "energy_type": "positive",
+    "relationship_bias": { "fukuen": 1.05, "kataomoi": 1.10, "affair": 1.00 },
+    "meanings": {
+      "upright": {
+        "jp": "願いが叶う可能性。満足感と心の充足。",
+        "en": "Wish fulfillment and satisfaction.",
+        "pt": "Realização de desejos."
+      },
+      "reversed": {
+        "jp": "期待しすぎる傾向。現実とのギャップに注意。",
+        "en": "Unrealistic expectations.",
+        "pt": "Expectativas irreais."
+      }
+    },
+    "keywords": {
+      "jp": ["願望成就", "満足", "幸福感"],
+      "en": ["wish", "happiness", "contentment"],
+      "pt": ["desejo", "felicidade", "satisfação"]
+    }
+  },
+  {
+    "id": "cups_10",
+    "arcana_type": "minor",
+    "suit": "cups",
+    "card_number": 10,
+    "name": { "jp": "聖杯の10", "en": "Ten of Cups", "pt": "Dez de Copas" },
+    "image_url": "/images/cards/cups_10.png",
+    "element": "Water",
+    "logic_tags": ["emotional_harmony", "long_term_potential", "family", "joy"],
+    "energy_type": "positive",
+    "relationship_bias": { "fukuen": 1.10, "kataomoi": 1.05, "affair": 0.95 },
+    "meanings": {
+      "upright": {
+        "jp": "心が満たされる関係。長期的な幸福の可能性。",
+        "en": "Emotional harmony and long-term joy.",
+        "pt": "Harmonia emocional e felicidade duradoura."
+      },
+      "reversed": {
+        "jp": "理想と現実の差。期待の調整が必要。",
+        "en": "Disharmony or unrealistic ideal.",
+        "pt": "Desarmonia ou idealização excessiva."
+      }
+    },
+    "keywords": {
+      "jp": ["幸福", "家庭", "調和"],
+      "en": ["harmony", "family", "joy"],
+      "pt": ["harmonia", "família", "alegria"]
+    }
+  },
+  {
+    "id": "cups_page",
+    "arcana_type": "minor",
+    "suit": "cups",
+    "card_number": 11,
+    "name": { "jp": "聖杯のペイジ", "en": "Page of Cups", "pt": "Pajem de Copas" },
+    "image_url": "/images/cards/cups_page.png",
+    "element": "Water",
+    "logic_tags": ["message", "new_feelings", "curiosity", "emotional_opening", "flirt"],
+    "energy_type": "positive",
+    "relationship_bias": { "fukuen": 1.05, "kataomoi": 1.20, "affair": 1.05 },
+    "meanings": {
+      "upright": {
+        "jp": "気持ちが芽生え始める兆し。連絡・好意のサインが入りやすい時。",
+        "en": "A sweet emotional message or new feelings emerging.",
+        "pt": "Uma mensagem afetiva ou sentimentos novos surgindo."
+      },
+      "reversed": {
+        "jp": "気持ちが不安定で言動が読みにくい時。期待を膨らませすぎないこと。",
+        "en": "Emotional immaturity or mixed signals.",
+        "pt": "Imaturidade emocional ou sinais confusos."
+      }
+    },
+    "keywords": {
+      "jp": ["連絡", "ときめき", "好意"],
+      "en": ["message", "flirt", "feelings"],
+      "pt": ["mensagem", "paquera", "sentimentos"]
+    }
+  },
+  {
+    "id": "cups_knight",
+    "arcana_type": "minor",
+    "suit": "cups",
+    "card_number": 12,
+    "name": { "jp": "聖杯のナイト", "en": "Knight of Cups", "pt": "Cavaleiro de Copas" },
+    "image_url": "/images/cards/cups_knight.png",
+    "element": "Water",
+    "logic_tags": ["romance", "approach", "invitation", "seduction", "emotional_offer"],
+    "energy_type": "positive",
+    "relationship_bias": { "fukuen": 1.10, "kataomoi": 1.15, "affair": 1.20 },
+    "meanings": {
+      "upright": {
+        "jp": "恋の進展の兆し。誘い・告白・甘いアプローチが起こりやすい時。",
+        "en": "Romantic pursuit and heartfelt invitations.",
+        "pt": "Avanço romântico, convite ou aproximação com afeto."
+      },
+      "reversed": {
+        "jp": "口先だけ・気分屋の可能性。行動が伴うかを見極めて。",
+        "en": "Charm without commitment. Watch actions, not words.",
+        "pt": "Charme sem compromisso. Observe atitudes, não palavras."
+      }
+    },
+    "keywords": {
+      "jp": ["恋の進展", "誘い", "甘い言葉"],
+      "en": ["romance", "invitation", "charm"],
+      "pt": ["romance", "convite", "charme"]
+    }
+  },
+  {
+    "id": "cups_queen",
+    "arcana_type": "minor",
+    "suit": "cups",
+    "card_number": 13,
+    "name": { "jp": "聖杯のクイーン", "en": "Queen of Cups", "pt": "Rainha de Copas" },
+    "image_url": "/images/cards/cups_queen.png",
+    "element": "Water",
+    "logic_tags": ["empathy", "intuition", "emotional_support", "nurturing", "deep_feelings"],
+    "energy_type": "positive",
+    "relationship_bias": { "fukuen": 1.15, "kataomoi": 1.10, "affair": 1.00 },
+    "meanings": {
+      "upright": {
+        "jp": "深い共感と受容の力。相手の本音を受け止め、癒しを与える存在。",
+        "en": "Empathy, intuition, and emotional support.",
+        "pt": "Empatia, intuição e acolhimento emocional."
+      },
+      "reversed": {
+        "jp": "感情に飲まれやすい時。尽くしすぎ・依存に注意。",
+        "en": "Overwhelm, emotional dependency, or over-giving.",
+        "pt": "Excesso de entrega, dependência emocional ou sobrecarga."
+      }
+    },
+    "keywords": {
+      "jp": ["共感", "直感", "癒し"],
+      "en": ["empathy", "intuition", "healing"],
+      "pt": ["empatia", "intuição", "cura"]
+    }
+  },
+  {
+    "id": "cups_king",
+    "arcana_type": "minor",
+    "suit": "cups",
+    "card_number": 14,
+    "name": { "jp": "聖杯のキング", "en": "King of Cups", "pt": "Rei de Copas" },
+    "image_url": "/images/cards/cups_king.png",
+    "element": "Water",
+    "logic_tags": ["emotional_control", "maturity", "stability", "calm_leadership", "safe_partner"],
+    "energy_type": "positive",
+    "relationship_bias": { "fukuen": 1.10, "kataomoi": 1.00, "affair": 0.95 },
+    "meanings": {
+      "upright": {
+        "jp": "感情をコントロールできる成熟した愛。安心感のある関係へ。",
+        "en": "Emotional maturity and steady, reliable affection.",
+        "pt": "Maturidade emocional e afeto estável, confiável."
+      },
+      "reversed": {
+        "jp": "感情を抑え込みすぎる、または本音を見せない傾向。距離感の調整が必要。",
+        "en": "Emotional suppression or hidden feelings. Adjust distance and communication.",
+        "pt": "Supressão emocional ou sentimentos ocultos. Ajuste a comunicação."
+      }
+    },
+    "keywords": {
+      "jp": ["成熟", "安定", "包容力"],
+      "en": ["maturity", "stability", "support"],
+      "pt": ["maturidade", "estabilidade", "apoio"]
+    }
+  }
+]

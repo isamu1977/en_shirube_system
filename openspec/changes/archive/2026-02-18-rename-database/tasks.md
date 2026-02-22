@@ -1,0 +1,5 @@
+- [ ] Update `backend/app/database.py` to use `en_shirube_system` as default DB name.
+- [ ] Update `scripts/init_db.py` to create/use `en_shirube_system`.
+- [ ] Search and replace any other occurrences of `taro_de_raizes`.
+- [ ] Verify application starts with new database name.
+- [ ] Verify `init_db.py` script works with new name.

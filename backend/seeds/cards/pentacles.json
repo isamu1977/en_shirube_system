@@ -1,0 +1,408 @@
+[
+  {
+    "id": "pentacles_ace",
+    "arcana_type": "minor",
+    "suit": "pentacles",
+    "card_number": 1,
+    "name": { "jp": "ペンタクルのエース", "en": "Ace of Pentacles", "pt": "Ás de Ouros" },
+    "image_url": "/images/cards/pentacles_ace.png",
+    "element": "Earth",
+    "logic_tags": ["new_opportunity", "stable_beginning", "commitment_potential", "real_world_action"],
+    "energy_type": "positive",
+    "relationship_bias": { "fukuen": 1.25, "kataomoi": 1.15, "affair": 0.90 },
+    "meanings": {
+      "upright": {
+        "jp": "現実的なチャンス。真剣な関係に発展する可能性。",
+        "en": "A solid opportunity for something real.",
+        "pt": "Oportunidade concreta para algo sério."
+      },
+      "reversed": {
+        "jp": "チャンスを逃す。具体的な行動が伴わない。",
+        "en": "Missed opportunity or lack of commitment.",
+        "pt": "Oportunidade perdida ou falta de comprometimento."
+      }
+    },
+    "keywords": {
+      "jp": ["安定", "現実", "始まり"],
+      "en": ["opportunity", "stability", "commitment"],
+      "pt": ["oportunidade", "estabilidade", "compromisso"]
+    }
+  },
+  {
+    "id": "pentacles_02",
+    "arcana_type": "minor",
+    "suit": "pentacles",
+    "card_number": 2,
+    "name": { "jp": "ペンタクルの2", "en": "Two of Pentacles", "pt": "Dois de Ouros" },
+    "image_url": "/images/cards/pentacles_02.png",
+    "element": "Earth",
+    "logic_tags": ["balance", "juggling", "indecision", "two_options"],
+    "energy_type": "neutral",
+    "relationship_bias": { "fukuen": 1.05, "kataomoi": 1.00, "affair": 1.15 },
+    "meanings": {
+      "upright": {
+        "jp": "二人の間で揺れている。決めきれていない状態。",
+        "en": "Trying to balance two priorities.",
+        "pt": "Tentando equilibrar duas situações."
+      },
+      "reversed": {
+        "jp": "バランス崩壊。どちらかを選ぶ必要。",
+        "en": "Overwhelmed and losing balance.",
+        "pt": "Desequilíbrio e confusão."
+      }
+    },
+    "keywords": {
+      "jp": ["迷い", "選択", "不安定"],
+      "en": ["balance", "choice", "instability"],
+      "pt": ["equilíbrio", "escolha", "instabilidade"]
+    }
+  },
+  {
+    "id": "pentacles_03",
+    "arcana_type": "minor",
+    "suit": "pentacles",
+    "card_number": 3,
+    "name": { "jp": "ペンタクルの3", "en": "Three of Pentacles", "pt": "Três de Ouros" },
+    "image_url": "/images/cards/pentacles_03.png",
+    "element": "Earth",
+    "logic_tags": ["teamwork", "building_together", "cooperation", "effort"],
+    "energy_type": "positive",
+    "relationship_bias": { "fukuen": 1.20, "kataomoi": 1.15, "affair": 0.95 },
+    "meanings": {
+      "upright": {
+        "jp": "協力関係。関係を築く努力が実る。",
+        "en": "Working together toward stability.",
+        "pt": "Construindo juntos algo sólido."
+      },
+      "reversed": {
+        "jp": "努力が一方通行。温度差がある。",
+        "en": "Lack of teamwork.",
+        "pt": "Falta de cooperação mútua."
+      }
+    },
+    "keywords": {
+      "jp": ["協力", "構築", "努力"],
+      "en": ["teamwork", "building", "effort"],
+      "pt": ["cooperação", "construção", "esforço"]
+    }
+  },
+  {
+    "id": "pentacles_04",
+    "arcana_type": "minor",
+    "suit": "pentacles",
+    "card_number": 4,
+    "name": { "jp": "ペンタクルの4", "en": "Four of Pentacles", "pt": "Quatro de Ouros" },
+    "image_url": "/images/cards/pentacles_04.png",
+    "element": "Earth",
+    "logic_tags": ["possessiveness", "insecurity", "holding_back", "fear_of_loss"],
+    "energy_type": "neutral",
+    "relationship_bias": { "fukuen": 1.10, "kataomoi": 0.95, "affair": 1.10 },
+    "meanings": {
+      "upright": {
+        "jp": "手放したくない気持ち。執着の可能性。",
+        "en": "Holding on tightly to the relationship.",
+        "pt": "Apego forte e medo de perder."
+      },
+      "reversed": {
+        "jp": "執着からの解放。心が軽くなる。",
+        "en": "Letting go of control.",
+        "pt": "Libertando-se do apego."
+      }
+    },
+    "keywords": {
+      "jp": ["執着", "不安", "守る"],
+      "en": ["possessive", "fear", "control"],
+      "pt": ["apego", "medo", "controle"]
+    }
+  },
+  {
+    "id": "pentacles_05",
+    "arcana_type": "minor",
+    "suit": "pentacles",
+    "card_number": 5,
+    "name": { "jp": "ペンタクルの5", "en": "Five of Pentacles", "pt": "Cinco de Ouros" },
+    "image_url": "/images/cards/pentacles_05.png",
+    "element": "Earth",
+    "logic_tags": ["distance", "rejection", "emotional_coldness", "abandonment"],
+    "energy_type": "tension",
+    "relationship_bias": { "fukuen": 0.85, "kataomoi": 0.80, "affair": 0.90 },
+    "meanings": {
+      "upright": {
+        "jp": "孤独感。距離ができている状態。",
+        "en": "Feeling left out or rejected.",
+        "pt": "Sentimento de exclusão ou abandono."
+      },
+      "reversed": {
+        "jp": "回復の兆し。助けが差し伸べられる。",
+        "en": "Recovery and reconciliation possible.",
+        "pt": "Possibilidade de recuperação."
+      }
+    },
+    "keywords": {
+      "jp": ["孤独", "拒絶", "距離"],
+      "en": ["rejection", "coldness", "distance"],
+      "pt": ["rejeição", "frieza", "distância"]
+    }
+  },
+  {
+    "id": "pentacles_06",
+    "arcana_type": "minor",
+    "suit": "pentacles",
+    "card_number": 6,
+    "name": { "jp": "ペンタクルの6", "en": "Six of Pentacles", "pt": "Seis de Ouros" },
+    "image_url": "/images/cards/pentacles_06.png",
+    "element": "Earth",
+    "logic_tags": ["mutual_exchange", "giving_and_receiving", "support", "balance"],
+    "energy_type": "positive",
+    "relationship_bias": { "fukuen": 1.25, "kataomoi": 1.15, "affair": 0.95 },
+    "meanings": {
+      "upright": {
+        "jp": "バランスの取れた関係。与え合う愛情。",
+        "en": "Balanced giving and receiving.",
+        "pt": "Troca equilibrada e apoio mútuo."
+      },
+      "reversed": {
+        "jp": "一方的な関係。与える側・受け取る側に偏り。",
+        "en": "One-sided relationship.",
+        "pt": "Relação desequilibrada."
+      }
+    },
+    "keywords": {
+      "jp": ["支え合い", "均衡", "与える"],
+      "en": ["balance", "support", "exchange"],
+      "pt": ["equilíbrio", "apoio", "troca"]
+    }
+  },
+  {
+    "id": "pentacles_07",
+    "arcana_type": "minor",
+    "suit": "pentacles",
+    "card_number": 7,
+    "name": { "jp": "ペンタクルの7", "en": "Seven of Pentacles", "pt": "Sete de Ouros" },
+    "image_url": "/images/cards/pentacles_07.png",
+    "element": "Earth",
+    "logic_tags": ["waiting", "evaluation", "patience", "investment"],
+    "energy_type": "neutral",
+    "relationship_bias": { "fukuen": 1.15, "kataomoi": 1.05, "affair": 0.90 },
+    "meanings": {
+      "upright": {
+        "jp": "様子見。時間をかけて判断しようとしている。",
+        "en": "Waiting to see long-term results.",
+        "pt": "Avaliando se vale a pena investir."
+      },
+      "reversed": {
+        "jp": "焦りや失望。結果が出ないことへの不満。",
+        "en": "Impatience or disappointment.",
+        "pt": "Impaciência ou frustração."
+      }
+    },
+    "keywords": {
+      "jp": ["待機", "評価", "忍耐"],
+      "en": ["patience", "investment", "evaluation"],
+      "pt": ["paciência", "investimento", "avaliação"]
+    }
+  },
+  {
+    "id": "pentacles_08",
+    "arcana_type": "minor",
+    "suit": "pentacles",
+    "card_number": 8,
+    "name": { "jp": "ペンタクルの8", "en": "Eight of Pentacles", "pt": "Oito de Ouros" },
+    "image_url": "/images/cards/pentacles_08.png",
+    "element": "Earth",
+    "logic_tags": ["dedication", "effort", "serious_work", "commitment"],
+    "energy_type": "positive",
+    "relationship_bias": { "fukuen": 1.30, "kataomoi": 1.20, "affair": 1.00 },
+    "meanings": {
+      "upright": {
+        "jp": "真剣な努力。関係を本気で改善しようとしている。",
+        "en": "Putting real effort into the relationship.",
+        "pt": "Dedicação real para fazer dar certo."
+      },
+      "reversed": {
+        "jp": "努力不足。口だけで行動が伴わない。",
+        "en": "Lack of serious effort.",
+        "pt": "Falta de esforço verdadeiro."
+      }
+    },
+    "keywords": {
+      "jp": ["努力", "真剣", "集中"],
+      "en": ["dedication", "work", "commitment"],
+      "pt": ["dedicação", "esforço", "compromisso"]
+    }
+  },
+  {
+    "id": "pentacles_09",
+    "arcana_type": "minor",
+    "suit": "pentacles",
+    "card_number": 9,
+    "name": { "jp": "ペンタクルの9", "en": "Nine of Pentacles", "pt": "Nove de Ouros" },
+    "image_url": "/images/cards/pentacles_09.png",
+    "element": "Earth",
+    "logic_tags": ["independence", "self_sufficiency", "comfort", "luxury"],
+    "energy_type": "positive",
+    "relationship_bias": { "fukuen": 1.10, "kataomoi": 1.05, "affair": 0.95 },
+    "meanings": {
+      "upright": {
+        "jp": "自立した魅力。相手に依存していない状態。",
+        "en": "Independence and self-worth.",
+        "pt": "Autossuficiência e valor próprio."
+      },
+      "reversed": {
+        "jp": "孤立感。強がりの可能性。",
+        "en": "Loneliness despite independence.",
+        "pt": "Solidão apesar da independência."
+      }
+    },
+    "keywords": {
+      "jp": ["自立", "豊かさ", "魅力"],
+      "en": ["independence", "abundance", "confidence"],
+      "pt": ["independência", "abundância", "confiança"]
+    }
+  },
+  {
+    "id": "pentacles_10",
+    "arcana_type": "minor",
+    "suit": "pentacles",
+    "card_number": 10,
+    "name": { "jp": "ペンタクルの10", "en": "Ten of Pentacles", "pt": "Dez de Ouros" },
+    "image_url": "/images/cards/pentacles_10.png",
+    "element": "Earth",
+    "logic_tags": ["long_term_commitment", "family", "marriage", "security", "legacy"],
+    "energy_type": "positive",
+    "relationship_bias": { "fukuen": 1.40, "kataomoi": 1.20, "affair": 0.80 },
+    "meanings": {
+      "upright": {
+        "jp": "結婚・家庭の可能性。長期的な安定。",
+        "en": "Long-term commitment and family stability.",
+        "pt": "Possibilidade de casamento e estabilidade duradoura."
+      },
+      "reversed": {
+        "jp": "家族問題や価値観の不一致。",
+        "en": "Family conflicts or instability.",
+        "pt": "Conflitos familiares ou instabilidade."
+      }
+    },
+    "keywords": {
+      "jp": ["結婚", "家庭", "安定"],
+      "en": ["marriage", "family", "stability"],
+      "pt": ["casamento", "família", "estabilidade"]
+    }
+  },
+  {
+    "id": "pentacles_page",
+    "arcana_type": "minor",
+    "suit": "pentacles",
+    "card_number": 11,
+    "name": { "jp": "ペンタクルのペイジ", "en": "Page of Pentacles", "pt": "Pajem de Ouros" },
+    "image_url": "/images/cards/pentacles_page.png",
+    "element": "Earth",
+    "logic_tags": ["proposal", "new_stability", "learning", "practical_offer"],
+    "energy_type": "positive",
+    "relationship_bias": { "fukuen": 1.20, "kataomoi": 1.15, "affair": 0.90 },
+    "meanings": {
+      "upright": {
+        "jp": "具体的な提案や再スタートの兆し。真面目な気持ち。",
+        "en": "A practical offer or serious new beginning.",
+        "pt": "Proposta concreta ou recomeço sério."
+      },
+      "reversed": {
+        "jp": "口だけの約束。現実性が伴わない。",
+        "en": "Immature or unrealistic offer.",
+        "pt": "Promessa sem maturidade."
+      }
+    },
+    "keywords": {
+      "jp": ["提案", "誠実", "再出発"],
+      "en": ["offer", "serious", "beginning"],
+      "pt": ["proposta", "seriedade", "recomeço"]
+    }
+  },
+  {
+    "id": "pentacles_knight",
+    "arcana_type": "minor",
+    "suit": "pentacles",
+    "card_number": 12,
+    "name": { "jp": "ペンタクルのナイト", "en": "Knight of Pentacles", "pt": "Cavaleiro de Ouros" },
+    "image_url": "/images/cards/pentacles_knight.png",
+    "element": "Earth",
+    "logic_tags": ["slow_progress", "loyalty", "stability", "consistency"],
+    "energy_type": "positive",
+    "relationship_bias": { "fukuen": 1.30, "kataomoi": 1.05, "affair": 0.85 },
+    "meanings": {
+      "upright": {
+        "jp": "ゆっくりだが誠実。安定した愛情。",
+        "en": "Slow but steady commitment.",
+        "pt": "Lento, mas confiável e constante."
+      },
+      "reversed": {
+        "jp": "停滞。進展が極端に遅い。",
+        "en": "Stagnation or lack of initiative.",
+        "pt": "Estagnação ou falta de iniciativa."
+      }
+    },
+    "keywords": {
+      "jp": ["誠実", "安定", "継続"],
+      "en": ["loyalty", "stability", "patience"],
+      "pt": ["lealdade", "estabilidade", "constância"]
+    }
+  },
+  {
+    "id": "pentacles_queen",
+    "arcana_type": "minor",
+    "suit": "pentacles",
+    "card_number": 13,
+    "name": { "jp": "ペンタクルのクイーン", "en": "Queen of Pentacles", "pt": "Rainha de Ouros" },
+    "image_url": "/images/cards/pentacles_queen.png",
+    "element": "Earth",
+    "logic_tags": ["nurturing", "provider_energy", "home", "security", "comfort"],
+    "energy_type": "positive",
+    "relationship_bias": { "fukuen": 1.25, "kataomoi": 1.10, "affair": 0.90 },
+    "meanings": {
+      "upright": {
+        "jp": "家庭的で安定志向。長期的な関係に向いている。",
+        "en": "Nurturing and focused on stability.",
+        "pt": "Protetora e voltada à estabilidade."
+      },
+      "reversed": {
+        "jp": "依存傾向。過度な心配や干渉。",
+        "en": "Overprotective or dependent behavior.",
+        "pt": "Dependência ou controle excessivo."
+      }
+    },
+    "keywords": {
+      "jp": ["家庭", "安心", "包容力"],
+      "en": ["home", "security", "nurturing"],
+      "pt": ["lar", "segurança", "acolhimento"]
+    }
+  },
+  {
+    "id": "pentacles_king",
+    "arcana_type": "minor",
+    "suit": "pentacles",
+    "card_number": 14,
+    "name": { "jp": "ペンタクルのキング", "en": "King of Pentacles", "pt": "Rei de Ouros" },
+    "image_url": "/images/cards/pentacles_king.png",
+    "element": "Earth",
+    "logic_tags": ["provider", "marriage_material", "financial_security", "long_term_commitment"],
+    "energy_type": "positive",
+    "relationship_bias": { "fukuen": 1.35, "kataomoi": 1.05, "affair": 0.80 },
+    "meanings": {
+      "upright": {
+        "jp": "結婚向きの人物。責任感が強く安定志向。",
+        "en": "A dependable long-term partner.",
+        "pt": "Parceiro estável e voltado ao casamento."
+      },
+      "reversed": {
+        "jp": "物質主義や支配傾向。感情表現が少ない。",
+        "en": "Materialistic or emotionally rigid.",
+        "pt": "Materialismo ou rigidez emocional."
+      }
+    },
+    "keywords": {
+      "jp": ["結婚", "責任", "安定"],
+      "en": ["marriage", "provider", "security"],
+      "pt": ["casamento", "provedor", "segurança"]
+    }
+  }
+]

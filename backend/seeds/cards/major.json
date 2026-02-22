@@ -1,0 +1,640 @@
+[
+  {
+    "id": "major_00",
+    "arcana_type": "major",
+    "suit": null,
+    "card_number": 0,
+    "name": { "jp": "愚者", "en": "The Fool", "pt": "O Louco" },
+    "image_url": "/images/cards/major_00.png",
+    "element": "Air",
+    "logic_tags": ["new_beginning", "freedom", "spontaneity", "risk", "potential"],
+    "energy_type": "neutral",
+    "relationship_bias": { "fukuen": 0.95, "kataomoi": 1.05, "affair": 0.95 },
+    "meanings": {
+      "upright": {
+        "jp": "新しい流れの入口。恐れよりも好奇心が勝ちやすく、直感に従うことで道が開けます。",
+        "en": "A new beginning. Curiosity leads; trusting intuition opens the path.",
+        "pt": "Um novo começo. A intuição guia e o caminho se abre quando você dá o primeiro passo."
+      },
+      "reversed": {
+        "jp": "勢いだけで進むと空回りしやすい時。準備不足や見落としに注意し、足元を整えることが鍵です。",
+        "en": "Impulsiveness can backfire. Watch for blind spots and prepare before acting.",
+        "pt": "Impulsividade pode atrapalhar. Evite precipitação e cuide dos detalhes antes de agir."
+      }
+    },
+    "keywords": {
+      "jp": ["自由", "冒険", "新しい始まり"],
+      "en": ["freedom", "adventure", "new beginning"],
+      "pt": ["liberdade", "aventura", "novo começo"]
+    }
+  },
+  {
+    "id": "major_01",
+    "arcana_type": "major",
+    "suit": null,
+    "card_number": 1,
+    "name": { "jp": "魔術師", "en": "The Magician", "pt": "O Mago" },
+    "image_url": "/images/cards/major_01.png",
+    "element": "Air",
+    "logic_tags": ["action", "initiative", "communication", "manifestation", "skill", "turning_point"],
+    "energy_type": "positive",
+    "relationship_bias": { "fukuen": 1.05, "kataomoi": 1.10, "affair": 1.00 },
+    "meanings": {
+      "upright": {
+        "jp": "動かす力が戻る時。言葉・連絡・小さな行動が現実を変える起点になりやすいでしょう。",
+        "en": "Power to initiate. A message or small action can shift the situation.",
+        "pt": "Força para agir. Uma mensagem ou pequena ação pode virar o jogo."
+      },
+      "reversed": {
+        "jp": "言葉だけが先行しやすい時。駆け引きや過剰な演出より、誠実な一貫性を優先すると安定します。",
+        "en": "Talk without substance. Avoid manipulation; choose consistency and sincerity.",
+        "pt": "Muito discurso e pouca consistência. Evite manipulação e mantenha sinceridade."
+      }
+    },
+    "keywords": {
+      "jp": ["創造力", "意志", "才能"],
+      "en": ["initiative", "willpower", "skill"],
+      "pt": ["iniciativa", "vontade", "habilidade"]
+    }
+  },
+  {
+    "id": "major_02",
+    "arcana_type": "major",
+    "suit": null,
+    "card_number": 2,
+    "name": { "jp": "女教皇", "en": "The High Priestess", "pt": "A Sacerdotisa" },
+    "image_url": "/images/cards/major_02.png",
+    "element": "Water",
+    "logic_tags": ["intuition", "hidden_feelings", "silence", "uncertainty", "observation", "secrecy"],
+    "energy_type": "neutral",
+    "relationship_bias": { "fukuen": 1.05, "kataomoi": 1.05, "affair": 1.10 },
+    "meanings": {
+      "upright": {
+        "jp": "表に出ない本音が大きい状況。焦らず観察し、直感が示す違和感も丁寧に拾うと見え方が整います。",
+        "en": "Hidden layers are strong. Observe calmly and trust subtle intuition.",
+        "pt": "Há sentimentos ocultos. Observe com calma e confie na intuição."
+      },
+      "reversed": {
+        "jp": "不安が想像を膨らませやすい時。確かめられないことは断定せず、情報を整理して心を落ち着かせましょう。",
+        "en": "Anxiety amplifies fantasies. Don’t assume—ground yourself in facts.",
+        "pt": "A ansiedade aumenta suposições. Não conclua sem fatos; organize informações."
+      }
+    },
+    "keywords": {
+      "jp": ["直感", "神秘", "内なる知恵"],
+      "en": ["intuition", "mystery", "inner wisdom"],
+      "pt": ["intuição", "mistério", "sabedoria interior"]
+    }
+  },
+  {
+    "id": "major_03",
+    "arcana_type": "major",
+    "suit": null,
+    "card_number": 3,
+    "name": { "jp": "女帝", "en": "The Empress", "pt": "A Imperatriz" },
+    "image_url": "/images/cards/major_03.png",
+    "element": "Earth",
+    "logic_tags": ["emotional_warmth", "attraction", "growth", "nurturing", "stability", "abundance"],
+    "energy_type": "positive",
+    "relationship_bias": { "fukuen": 1.00, "kataomoi": 1.10, "affair": 1.00 },
+    "meanings": {
+      "upright": {
+        "jp": "愛情や魅力が育ちやすい流れ。安心感・思いやり・丁寧な関わりが関係性を豊かにします。",
+        "en": "Warmth grows. Care and gentleness nourish the relationship.",
+        "pt": "O afeto cresce. Cuidado e gentileza fortalecem a relação."
+      },
+      "reversed": {
+        "jp": "尽くしすぎて自分が空になりやすい時。与える量と受け取る量のバランスを整えると、自然体に戻れます。",
+        "en": "Overgiving drains you. Restore balance between giving and receiving.",
+        "pt": "Dar demais pode esgotar. Ajuste o equilíbrio entre dar e receber."
+      }
+    },
+    "keywords": {
+      "jp": ["豊穣", "母性", "繁栄"],
+      "en": ["abundance", "nurturing", "growth"],
+      "pt": ["abundância", "nutrição", "crescimento"]
+    }
+  },
+  {
+    "id": "major_04",
+    "arcana_type": "major",
+    "suit": null,
+    "card_number": 4,
+    "name": { "jp": "皇帝", "en": "The Emperor", "pt": "O Imperador" },
+    "image_url": "/images/cards/major_04.png",
+    "element": "Fire",
+    "logic_tags": ["structure", "boundaries", "authority", "control", "stability", "responsibility"],
+    "energy_type": "neutral",
+    "relationship_bias": { "fukuen": 1.05, "kataomoi": 0.95, "affair": 0.90 },
+    "meanings": {
+      "upright": {
+        "jp": "関係の枠組みやルールが鍵。感情だけでなく、距離感・連絡頻度・線引きを整えると安定しやすいでしょう。",
+        "en": "Structure matters. Clear boundaries and consistency bring stability.",
+        "pt": "Estrutura importa. Limites e consistência trazem estabilidade."
+      },
+      "reversed": {
+        "jp": "頑固さや支配欲が摩擦を生みやすい時。相手を動かすより、自分の選択肢を増やす発想が有効です。",
+        "en": "Rigidity creates friction. Increase your options rather than controlling them.",
+        "pt": "Rigidez gera atrito. Foque em ampliar suas opções, não controlar o outro."
+      }
+    },
+    "keywords": {
+      "jp": ["権威", "秩序", "安定"],
+      "en": ["authority", "order", "stability"],
+      "pt": ["autoridade", "ordem", "estabilidade"]
+    }
+  },
+  {
+    "id": "major_05",
+    "arcana_type": "major",
+    "suit": null,
+    "card_number": 5,
+    "name": { "jp": "法王", "en": "The Hierophant", "pt": "O Hierofante" },
+    "image_url": "/images/cards/major_05.png",
+    "element": "Earth",
+    "logic_tags": ["tradition", "commitment", "values", "guidance", "stability", "social_rules"],
+    "energy_type": "neutral",
+    "relationship_bias": { "fukuen": 1.00, "kataomoi": 0.95, "affair": 0.85 },
+    "meanings": {
+      "upright": {
+        "jp": "価値観や常識の一致がテーマ。周囲の目・将来像・約束ごとを丁寧に言語化すると進みやすくなります。",
+        "en": "Shared values are key. Clarify expectations and commitments.",
+        "pt": "Valores em comum são chave. Alinhe expectativas e compromissos."
+      },
+      "reversed": {
+        "jp": "型にはめすぎると苦しくなる時。世間の正解より、二人にとって無理のない形を選ぶことが大切です。",
+        "en": "Too many rules feel suffocating. Choose what works for you both.",
+        "pt": "Regras demais sufocam. Escolha um formato que funcione para vocês."
+      }
+    },
+    "keywords": {
+      "jp": ["伝統", "道徳", "導き"],
+      "en": ["tradition", "values", "guidance"],
+      "pt": ["tradição", "valores", "orientação"]
+    }
+  },
+  {
+    "id": "major_06",
+    "arcana_type": "major",
+    "suit": null,
+    "card_number": 6,
+    "name": { "jp": "恋人たち", "en": "The Lovers", "pt": "Os Amantes" },
+    "image_url": "/images/cards/major_06.png",
+    "element": "Air",
+    "logic_tags": ["connection", "choice", "mutual_attraction", "values", "emotional_bond", "turning_point"],
+    "energy_type": "positive",
+    "relationship_bias": { "fukuen": 1.05, "kataomoi": 1.10, "affair": 1.00 },
+    "meanings": {
+      "upright": {
+        "jp": "絆が強まる可能性。大切なのは「何を選ぶか」。感情だけでなく価値観の一致を確認すると流れが整います。",
+        "en": "Bond deepens. The key is a choice aligned with values.",
+        "pt": "A conexão aprofunda. O essencial é escolher de acordo com seus valores."
+      },
+      "reversed": {
+        "jp": "迷いが続くと消耗しやすい時。曖昧な関係を長引かせず、判断基準を自分の中に作ることが大切です。",
+        "en": "Indecision drains you. Create clear criteria and avoid prolonged ambiguity.",
+        "pt": "Indecisão desgasta. Defina critérios e evite prolongar ambiguidade."
+      }
+    },
+    "keywords": {
+      "jp": ["愛", "調和", "選択"],
+      "en": ["love", "harmony", "choice"],
+      "pt": ["amor", "harmonia", "escolha"]
+    }
+  },
+  {
+    "id": "major_07",
+    "arcana_type": "major",
+    "suit": null,
+    "card_number": 7,
+    "name": { "jp": "戦車", "en": "The Chariot", "pt": "A Carruagem" },
+    "image_url": "/images/cards/major_07.png",
+    "element": "Water",
+    "logic_tags": ["movement", "determination", "action", "progress", "control", "breakthrough"],
+    "energy_type": "positive",
+    "relationship_bias": { "fukuen": 1.05, "kataomoi": 1.05, "affair": 0.95 },
+    "meanings": {
+      "upright": {
+        "jp": "前進の勢い。迷いを整理し、方針を一本化すると動きが出ます。短期の行動が結果を左右しやすいでしょう。",
+        "en": "Momentum to move forward. A clear plan and decisive action create progress.",
+        "pt": "Momento de avançar. Um plano claro e ação decidida trazem progresso."
+      },
+      "reversed": {
+        "jp": "焦りが空回りしやすい時。相手を追うより、自分の軸を整えたうえで「連絡の質」を上げるのが有効です。",
+        "en": "Rushing can backfire. Improve the quality of contact, not the pressure.",
+        "pt": "Pressa atrapalha. Melhore a qualidade do contato, não a pressão."
+      }
+    },
+    "keywords": {
+      "jp": ["前進", "勝利", "意志"],
+      "en": ["progress", "victory", "willpower"],
+      "pt": ["avanço", "vitória", "vontade"]
+    }
+  },
+  {
+    "id": "major_08",
+    "arcana_type": "major",
+    "suit": null,
+    "card_number": 8,
+    "name": { "jp": "力", "en": "Strength", "pt": "A Força" },
+    "image_url": "/images/cards/major_08.png",
+    "element": "Fire",
+    "logic_tags": ["patience", "inner_strength", "self_control", "emotional_balance", "healing"],
+    "energy_type": "positive",
+    "relationship_bias": { "fukuen": 1.10, "kataomoi": 1.00, "affair": 1.00 },
+    "meanings": {
+      "upright": {
+        "jp": "優しさで状況を扱える時。感情の波を整え、押すよりも「安心」を作ることで相手の反応が変わりやすいでしょう。",
+        "en": "Gentle strength. Creating safety changes the other person’s response.",
+        "pt": "Força com gentileza. Criar segurança muda a reação do outro."
+      },
+      "reversed": {
+        "jp": "我慢が限界に近いサイン。無理に耐えるより、自分を回復させる時間を確保すると判断が澄みます。",
+        "en": "Patience is running thin. Rest and self-care restore clarity.",
+        "pt": "A paciência está no limite. Descanse e cuide de você para recuperar clareza."
+      }
+    },
+    "keywords": {
+      "jp": ["勇気", "忍耐", "内なる力"],
+      "en": ["courage", "patience", "inner strength"],
+      "pt": ["coragem", "paciência", "força interior"]
+    }
+  },
+  {
+    "id": "major_09",
+    "arcana_type": "major",
+    "suit": null,
+    "card_number": 9,
+    "name": { "jp": "隠者", "en": "The Hermit", "pt": "O Eremita" },
+    "image_url": "/images/cards/major_09.png",
+    "element": "Earth",
+    "logic_tags": ["distance", "silence", "introspection", "healing", "clarity", "slow_progress"],
+    "energy_type": "neutral",
+    "relationship_bias": { "fukuen": 1.05, "kataomoi": 0.95, "affair": 1.00 },
+    "meanings": {
+      "upright": {
+        "jp": "距離が必要なフェーズ。急いで埋めるより、内省と整理で「何を望むか」を明確にすると次の一手が見えます。",
+        "en": "A phase of distance. Clarify what you truly want before acting.",
+        "pt": "Fase de distância. Clarifique o que você realmente quer antes de agir."
+      },
+      "reversed": {
+        "jp": "孤独感が強まると判断が偏りやすい時。信頼できる視点や小さな外出で心を戻すことが助けになります。",
+        "en": "Isolation distorts judgment. Seek grounded support and healthy routines.",
+        "pt": "Isolamento distorce decisões. Busque apoio e hábitos que te estabilizem."
+      }
+    },
+    "keywords": {
+      "jp": ["内省", "探求", "静寂"],
+      "en": ["introspection", "search", "silence"],
+      "pt": ["introspecção", "busca", "silêncio"]
+    }
+  },
+  {
+    "id": "major_10",
+    "arcana_type": "major",
+    "suit": null,
+    "card_number": 10,
+    "name": { "jp": "運命の輪", "en": "Wheel of Fortune", "pt": "A Roda da Fortuna" },
+    "image_url": "/images/cards/major_10.png",
+    "element": "Fire",
+    "logic_tags": ["turning_point", "change", "timing", "cycle", "chance", "movement"],
+    "energy_type": "transformational",
+    "relationship_bias": { "fukuen": 1.05, "kataomoi": 1.00, "affair": 1.00 },
+    "meanings": {
+      "upright": {
+        "jp": "流れが切り替わる兆し。タイミングが重要なので、焦って押すより「合図」を見て動くと乗りやすいでしょう。",
+        "en": "A shift in momentum. Timing is key—act when the signs align.",
+        "pt": "Mudança de fluxo. O timing é crucial—aja quando os sinais aparecerem."
+      },
+      "reversed": {
+        "jp": "同じパターンを繰り返しやすい時。運任せにせず、行動と習慣を少し変えることで循環を断ち切れます。",
+        "en": "Repeating patterns. Small behavioral changes break the loop.",
+        "pt": "Padrões se repetem. Pequenas mudanças de comportamento quebram o ciclo."
+      }
+    },
+    "keywords": {
+      "jp": ["転機", "変化", "チャンス"],
+      "en": ["turning point", "change", "chance"],
+      "pt": ["virada", "mudança", "oportunidade"]
+    }
+  },
+  {
+    "id": "major_11",
+    "arcana_type": "major",
+    "suit": null,
+    "card_number": 11,
+    "name": { "jp": "正義", "en": "Justice", "pt": "A Justiça" },
+    "image_url": "/images/cards/major_11.png",
+    "element": "Air",
+    "logic_tags": ["clarity", "truth", "accountability", "balance", "decision", "boundaries"],
+    "energy_type": "neutral",
+    "relationship_bias": { "fukuen": 1.05, "kataomoi": 0.95, "affair": 0.90 },
+    "meanings": {
+      "upright": {
+        "jp": "整理と判断のカード。曖昧さを減らし、事実・責任・約束を明確にすると関係の温度が安定します。",
+        "en": "Clarity and accountability. Reduce ambiguity and define expectations.",
+        "pt": "Clareza e responsabilidade. Reduza ambiguidades e defina expectativas."
+      },
+      "reversed": {
+        "jp": "不公平感や誤解が積もりやすい時。感情論ではなく、状況を言語化して誠実に整えることが必要です。",
+        "en": "Misunderstandings and unfairness. Communicate clearly and repair trust.",
+        "pt": "Injustiça e mal-entendidos. Comunique com clareza e reconstrua confiança."
+      }
+    },
+    "keywords": {
+      "jp": ["真実", "均衡", "判断"],
+      "en": ["truth", "balance", "judgment"],
+      "pt": ["verdade", "equilíbrio", "decisão"]
+    }
+  },
+  {
+    "id": "major_12",
+    "arcana_type": "major",
+    "suit": null,
+    "card_number": 12,
+    "name": { "jp": "吊るされた男", "en": "The Hanged Man", "pt": "O Enforcado" },
+    "image_url": "/images/cards/major_12.png",
+    "element": "Water",
+    "logic_tags": ["stagnation", "pause", "perspective_shift", "patience", "letting_go", "timing"],
+    "energy_type": "neutral",
+    "relationship_bias": { "fukuen": 1.10, "kataomoi": 1.00, "affair": 1.00 },
+    "meanings": {
+      "upright": {
+        "jp": "今は「止めることで進む」時。無理に動かすより視点を変え、相手のペースも尊重すると流れが戻ります。",
+        "en": "Progress through pause. Shift perspective and respect timing.",
+        "pt": "Avanço pela pausa. Mude a perspectiva e respeite o timing."
+      },
+      "reversed": {
+        "jp": "停滞が長引くと疲れやすい時。小さな期限を決め、できる範囲で選択肢を増やすと心が軽くなります。",
+        "en": "Stagnation feels heavy. Set small deadlines and expand options.",
+        "pt": "Estagnação pesa. Defina prazos pequenos e amplie opções."
+      }
+    },
+    "keywords": {
+      "jp": ["停止", "試練", "視点転換"],
+      "en": ["pause", "test", "new perspective"],
+      "pt": ["pausa", "prova", "nova perspectiva"]
+    }
+  },
+  {
+    "id": "major_13",
+    "arcana_type": "major",
+    "suit": null,
+    "card_number": 13,
+    "name": { "jp": "死神", "en": "Death", "pt": "A Morte" },
+    "image_url": "/images/cards/major_13.png",
+    "element": "Water",
+    "logic_tags": ["ending", "transformation", "letting_go", "renewal", "reset", "turning_point"],
+    "energy_type": "transformational",
+    "relationship_bias": { "fukuen": 1.05, "kataomoi": 0.95, "affair": 1.05 },
+    "meanings": {
+      "upright": {
+        "jp": "終わりと再構築。過去の形に戻すより、不要なパターンを手放して関係を作り直す流れが示されます。",
+        "en": "Endings and renewal. Release old patterns to rebuild differently.",
+        "pt": "Fim e renascimento. Solte padrões antigos para reconstruir de outra forma."
+      },
+      "reversed": {
+        "jp": "変化を恐れて停滞しやすい時。終わらせるべきことを先延ばしにすると苦しくなるため、小さく区切って整理を。",
+        "en": "Resistance to change. Break it into small steps and clean up what’s overdue.",
+        "pt": "Resistência à mudança. Divida em passos pequenos e encerre o que já venceu."
+      }
+    },
+    "keywords": {
+      "jp": ["終焉", "変容", "再生"],
+      "en": ["ending", "transformation", "rebirth"],
+      "pt": ["fim", "transformação", "renascimento"]
+    }
+  },
+  {
+    "id": "major_14",
+    "arcana_type": "major",
+    "suit": null,
+    "card_number": 14,
+    "name": { "jp": "節制", "en": "Temperance", "pt": "A Temperança" },
+    "image_url": "/images/cards/major_14.png",
+    "element": "Fire",
+    "logic_tags": ["reconciliation", "balance", "healing", "moderation", "communication", "slow_progress"],
+    "energy_type": "positive",
+    "relationship_bias": { "fukuen": 1.15, "kataomoi": 1.00, "affair": 0.95 },
+    "meanings": {
+      "upright": {
+        "jp": "調整と和解の気配。急展開よりも、少しずつ温度を戻すやり方が合います。対話の質を整えると進展します。",
+        "en": "Healing and reconciliation. Slow, steady warmth works best.",
+        "pt": "Cura e reconciliação. O caminho é gradual e consistente."
+      },
+      "reversed": {
+        "jp": "バランスが崩れやすい時。連絡頻度・期待値・感情の出し方を整えると、無理のない形に戻せます。",
+        "en": "Imbalance. Adjust expectations and communication cadence.",
+        "pt": "Desequilíbrio. Ajuste expectativas e o ritmo da comunicação."
+      }
+    },
+    "keywords": {
+      "jp": ["調和", "節度", "癒し"],
+      "en": ["harmony", "moderation", "healing"],
+      "pt": ["harmonia", "moderação", "cura"]
+    }
+  },
+  {
+    "id": "major_15",
+    "arcana_type": "major",
+    "suit": null,
+    "card_number": 15,
+    "name": { "jp": "悪魔", "en": "The Devil", "pt": "O Diabo" },
+    "image_url": "/images/cards/major_15.png",
+    "element": "Earth",
+    "logic_tags": ["dependency", "attachment", "temptation", "jealousy", "obsession", "toxicity"],
+    "energy_type": "tension",
+    "relationship_bias": { "fukuen": 1.00, "kataomoi": 0.95, "affair": 1.10 },
+    "meanings": {
+      "upright": {
+        "jp": "執着や依存がテーマ。強い引力はありますが、苦しさも混ざりやすい時。自分の境界線を守ることが重要です。",
+        "en": "Attachment and temptation. Strong pull, but boundaries are essential.",
+        "pt": "Apego e tentação. A atração é forte, mas limites são essenciais."
+      },
+      "reversed": {
+        "jp": "鎖を外すチャンス。依存的なパターンに気づき、距離感を整えると関係が健全化しやすいでしょう。",
+        "en": "A chance to break free. Recognize patterns and restore healthy distance.",
+        "pt": "Chance de se libertar. Perceba padrões e recupere distância saudável."
+      }
+    },
+    "keywords": {
+      "jp": ["束縛", "誘惑", "欲望"],
+      "en": ["bondage", "temptation", "desire"],
+      "pt": ["prisão", "tentação", "desejo"]
+    }
+  },
+  {
+    "id": "major_16",
+    "arcana_type": "major",
+    "suit": null,
+    "card_number": 16,
+    "name": { "jp": "塔", "en": "The Tower", "pt": "A Torre" },
+    "image_url": "/images/cards/major_16.png",
+    "element": "Fire",
+    "logic_tags": ["shock", "revelation", "breakdown", "truth", "reset", "volatile"],
+    "energy_type": "volatile",
+    "relationship_bias": { "fukuen": 0.95, "kataomoi": 0.95, "affair": 1.05 },
+    "meanings": {
+      "upright": {
+        "jp": "隠れていた事実が表に出やすい時。衝撃はありますが、土台を作り直すための浄化として働く可能性もあります。",
+        "en": "A sudden reveal. Painful, but it clears false foundations for rebuilding.",
+        "pt": "Revelação repentina. Dói, mas limpa bases falsas para reconstrução."
+      },
+      "reversed": {
+        "jp": "崩れる前に調整できる兆し。小さな違和感を放置せず、早めに対話と整理を行うと被害を抑えられます。",
+        "en": "A chance to prevent bigger damage. Address issues early with honest talk.",
+        "pt": "Chance de evitar algo maior. Encare cedo com conversa honesta."
+      }
+    },
+    "keywords": {
+      "jp": ["崩壊", "衝撃", "真実"],
+      "en": ["collapse", "shock", "truth"],
+      "pt": ["colapso", "choque", "verdade"]
+    }
+  },
+  {
+    "id": "major_17",
+    "arcana_type": "major",
+    "suit": null,
+    "card_number": 17,
+    "name": { "jp": "星", "en": "The Star", "pt": "A Estrela" },
+    "image_url": "/images/cards/major_17.png",
+    "element": "Air",
+    "logic_tags": ["hope", "healing", "clarity", "long_term", "renewal", "calm"],
+    "energy_type": "positive",
+    "relationship_bias": { "fukuen": 1.05, "kataomoi": 1.00, "affair": 0.95 },
+    "meanings": {
+      "upright": {
+        "jp": "希望と回復。今は大きく動かすより、心を整えながら未来へつながる小さな光を育てる時です。",
+        "en": "Hope and healing. Nurture small lights that lead to a better future.",
+        "pt": "Esperança e cura. Alimente pequenas luzes que apontam para um futuro melhor."
+      },
+      "reversed": {
+        "jp": "希望が揺らぐと行動が雑になりやすい時。まずは自分を回復させ、期待の置き方を現実に合わせると安定します。",
+        "en": "Wavering hope. Restore yourself and align expectations with reality.",
+        "pt": "Esperança instável. Recupere-se e alinhe expectativas com a realidade."
+      }
+    },
+    "keywords": {
+      "jp": ["希望", "癒し", "再生"],
+      "en": ["hope", "healing", "renewal"],
+      "pt": ["esperança", "cura", "renovação"]
+    }
+  },
+  {
+    "id": "major_18",
+    "arcana_type": "major",
+    "suit": null,
+    "card_number": 18,
+    "name": { "jp": "月", "en": "The Moon", "pt": "A Lua" },
+    "image_url": "/images/cards/major_18.png",
+    "element": "Water",
+    "logic_tags": ["uncertainty", "illusion", "anxiety", "hidden_feelings", "secrecy", "intuition"],
+    "energy_type": "tension",
+    "relationship_bias": { "fukuen": 1.05, "kataomoi": 1.10, "affair": 1.10 },
+    "meanings": {
+      "upright": {
+        "jp": "曖昧さが増えやすい状況。相手の言動を一つの解釈に固定せず、情報を増やして全体像を見ましょう。",
+        "en": "Ambiguity is high. Avoid locking into one interpretation; gather context.",
+        "pt": "Ambiguidade alta. Não fixe uma única interpretação; reúna contexto."
+      },
+      "reversed": {
+        "jp": "霧が晴れ始める兆し。疑いよりも事実確認を優先し、安心できるコミュニケーション設計に切り替えると良いでしょう。",
+        "en": "The fog clears. Prioritize verification and design calmer communication.",
+        "pt": "A névoa começa a dissipar. Priorize fatos e ajuste uma comunicação mais calma."
+      }
+    },
+    "keywords": {
+      "jp": ["不安", "幻影", "潜在意識"],
+      "en": ["anxiety", "illusion", "subconscious"],
+      "pt": ["ansiedade", "ilusão", "subconsciente"]
+    }
+  },
+  {
+    "id": "major_19",
+    "arcana_type": "major",
+    "suit": null,
+    "card_number": 19,
+    "name": { "jp": "太陽", "en": "The Sun", "pt": "O Sol" },
+    "image_url": "/images/cards/major_19.png",
+    "element": "Fire",
+    "logic_tags": ["clarity", "joy", "success", "openness", "confidence", "positive_outcome"],
+    "energy_type": "positive",
+    "relationship_bias": { "fukuen": 1.00, "kataomoi": 1.05, "affair": 0.95 },
+    "meanings": {
+      "upright": {
+        "jp": "見通しが良くなりやすい時。素直さとオープンさが関係を温めます。小さな成功体験を積むと加速します。",
+        "en": "Clarity and warmth. Openness builds momentum through small wins.",
+        "pt": "Clareza e calor. A transparência acelera com pequenas vitórias."
+      },
+      "reversed": {
+        "jp": "良い流れがあっても、期待が先行すると不満が出やすい時。現実の進み方を尊重すると安定します。",
+        "en": "Good signs, but expectations can spoil them. Stay grounded in reality.",
+        "pt": "Há bons sinais, mas expectativas atrapalham. Mantenha os pés no chão."
+      }
+    },
+    "keywords": {
+      "jp": ["成功", "喜び", "明確さ"],
+      "en": ["success", "joy", "clarity"],
+      "pt": ["sucesso", "alegria", "clareza"]
+    }
+  },
+  {
+    "id": "major_20",
+    "arcana_type": "major",
+    "suit": null,
+    "card_number": 20,
+    "name": { "jp": "審判", "en": "Judgement", "pt": "O Julgamento" },
+    "image_url": "/images/cards/major_20.png",
+    "element": "Fire",
+    "logic_tags": ["reconciliation", "reconsideration", "awakening", "decision", "second_chance", "closure"],
+    "energy_type": "transformational",
+    "relationship_bias": { "fukuen": 1.20, "kataomoi": 1.00, "affair": 0.95 },
+    "meanings": {
+      "upright": {
+        "jp": "過去を見直し、再スタートの可能性。謝罪・清算・本音の対話が、関係の再構築に繋がりやすいでしょう。",
+        "en": "Reassessment and second chances. Honest talk and closure enable rebuilding.",
+        "pt": "Reavaliação e segunda chance. Conversa honesta e encerramentos ajudam a reconstruir."
+      },
+      "reversed": {
+        "jp": "決断を先延ばしにしやすい時。過去への罪悪感や恐れを整理し、まず自分の意思をはっきりさせることが必要です。",
+        "en": "Delaying decisions. Clear guilt/fear and define what you truly want.",
+        "pt": "Adiando decisões. Organize culpa/medo e defina o que você realmente quer."
+      }
+    },
+    "keywords": {
+      "jp": ["復活", "覚醒", "決断"],
+      "en": ["rebirth", "awakening", "decision"],
+      "pt": ["renascimento", "despertar", "decisão"]
+    }
+  },
+  {
+    "id": "major_21",
+    "arcana_type": "major",
+    "suit": null,
+    "card_number": 21,
+    "name": { "jp": "世界", "en": "The World", "pt": "O Mundo" },
+    "image_url": "/images/cards/major_21.png",
+    "element": "Earth",
+    "logic_tags": ["completion", "integration", "stability", "long_term", "fulfillment", "closure"],
+    "energy_type": "positive",
+    "relationship_bias": { "fukuen": 1.00, "kataomoi": 0.95, "affair": 0.90 },
+    "meanings": {
+      "upright": {
+        "jp": "一区切りと完成。関係の形が整い、次のステージへ進みやすい流れです。長期目線での安定がテーマになります。",
+        "en": "Completion and integration. The relationship form stabilizes for the next stage.",
+        "pt": "Conclusão e integração. A relação se estabiliza para um próximo estágio."
+      },
+      "reversed": {
+        "jp": "あと一歩で整うのに、未完の課題が残りやすい時。中途半端を終わらせ、仕上げの調整を行うと前へ進めます。",
+        "en": "Almost complete, but loose ends remain. Finish what’s pending to move forward.",
+        "pt": "Quase completo, mas há pendências. Finalize o que falta para avançar."
+      }
+    },
+    "keywords": {
+      "jp": ["完成", "統合", "達成"],
+      "en": ["completion", "integration", "achievement"],
+      "pt": ["conclusão", "integração", "realização"]
+    }
+  }
+]
