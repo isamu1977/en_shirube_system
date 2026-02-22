@@ -3,6 +3,15 @@
 .env.*
 !.env.example
 
+# Agent Workspaces
+.agent/
+.agents/
+_agent/
+_agents/
+.gemini/
+.env.*
+!.env.example
+
 # Python
 __pycache__/
 *.py[cod]
