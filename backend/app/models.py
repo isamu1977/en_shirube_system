@@ -12,6 +12,7 @@ from datetime import datetime, timezone
 from sqlalchemy import (
     ARRAY,
     DateTime,
+    ForeignKey,
     Integer,
     String,
     Text,
@@ -20,6 +21,58 @@ from sqlalchemy.dialects.postgresql import JSONB, UUID
 from sqlalchemy.orm import Mapped, mapped_column
 
 from app.database import Base
+
+
+class User(Base):
+    """
+    A user account linked to Stripe for premium subscriptions.
+
+    Users are identified by their Stripe customer ID, enabling seamless
+    subscription management without separate authentication.
+    """
+
+    __tablename__ = "users"
+
+    id: Mapped[uuid.UUID] = mapped_column(
+        UUID(as_uuid=True), primary_key=True, default=uuid.uuid4
+    )
+
+    stripe_customer_id: Mapped[str | None] = mapped_column(
+        String(100), nullable=True, unique=True
+    )
+
+    subscription_status: Mapped[str] = mapped_column(
+        String(20), nullable=False, default="none"
+    )
+
+    sos_credits: Mapped[int] = mapped_column(Integer, nullable=False, default=0)
+
+    emotional_profile: Mapped[str | None] = mapped_column(
+        String(20), nullable=True
+    )
+
+    last_sos_reset: Mapped[datetime | None] = mapped_column(
+        DateTime(timezone=True), nullable=True
+    )
+
+    created_at: Mapped[datetime] = mapped_column(
+        DateTime(timezone=True),
+        nullable=False,
+        default=lambda: datetime.now(timezone.utc),
+    )
+
+    updated_at: Mapped[datetime] = mapped_column(
+        DateTime(timezone=True),
+        nullable=False,
+        default=lambda: datetime.now(timezone.utc),
+        onupdate=lambda: datetime.now(timezone.utc),
+    )
+
+    def __repr__(self) -> str:
+        return (
+            f"<User(id='{self.id}', stripe_customer_id='{self.stripe_customer_id}', "
+            f"subscription_status='{self.subscription_status}')>"
+        )
 
 
 class Card(Base):
@@ -126,6 +179,14 @@ class Reading(Base):
     llm_model: Mapped[str | None] = mapped_column(String(50), nullable=True)
     prompt_tokens: Mapped[int | None] = mapped_column(Integer, nullable=True)
     completion_tokens: Mapped[int | None] = mapped_column(Integer, nullable=True)
+
+    # Contextual memory for continuity (LLM-generated summary)
+    summary_for_memory: Mapped[str | None] = mapped_column(Text, nullable=True)
+
+    # User association (for premium readings with continuity)
+    user_id: Mapped[uuid.UUID | None] = mapped_column(
+        UUID(as_uuid=True), ForeignKey("users.id"), nullable=True
+    )
 
     # Timestamps
     created_at: Mapped[datetime] = mapped_column(

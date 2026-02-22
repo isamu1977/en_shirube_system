@@ -35,7 +35,7 @@ def build_lead_magnet_prompt(card_name_jp: str, is_reversed: bool, love_context:
 """
 
 
-def build_standard_spread_prompt(draws: List[CardDraw], cards_data: dict, card_names: dict) -> str:
+def build_standard_spread_prompt(draws: List[CardDraw], cards_data: dict, card_names: dict, contextual_memory: str = "", emotional_profile: str = "") -> str:
     """
     Constructs the Japanese system prompt for the Standard Spread (7-card) reading.
     
@@ -43,6 +43,8 @@ def build_standard_spread_prompt(draws: List[CardDraw], cards_data: dict, card_n
         draws: List of CardDraw objects with card_id and is_reversed.
         cards_data: Dict mapping card_number to Card objects.
         card_names: Dict mapping card_number to Japanese card name.
+        contextual_memory: Previous reading summary for continuity.
+        emotional_profile: User's emotional profile for tone adjustment.
         
     Returns:
         The exact string prompt to be sent to the LLM.
@@ -62,7 +64,7 @@ def build_standard_spread_prompt(draws: List[CardDraw], cards_data: dict, card_n
     
     cards_text = "\n\n".join(cards_section)
     
-    return f"""あなたは「縁しるべ」の専属AI案内人です。心理カウンセラーとして深く寄り添い、かつ論理的で落ち着いたトーンで話してください。
+    base_prompt = f"""あなたは「縁しるべ」の専属AI案内人です。心理カウンセラーとして深く寄り添い、かつ論理的で落ち着いたトーンで話してください。
 
 以下の7枚のカードを読み解き、恋愛・復縁についての鑑定結果を出力してください。
 
@@ -77,3 +79,42 @@ def build_standard_spread_prompt(draws: List[CardDraw], cards_data: dict, card_n
 【最終段落】
 {RETENTION_TRIGGER_TEXT}
 """
+    
+    if contextual_memory or emotional_profile:
+        premium_context = _build_premium_context(contextual_memory, emotional_profile)
+        return premium_context + "\n\n" + base_prompt
+    
+    return base_prompt
+
+
+def _build_premium_context(contextual_memory: str, emotional_profile: str) -> str:
+    """Build premium subscriber context with evolution logic."""
+    context_parts = []
+    
+    if contextual_memory:
+        context_parts.append(f"""【 Continuity Context - 前回のご鑑定】
+{contextual_memory}
+
+あなたのタスク:
+1. 期間（約2週間）の経過を認識してください
+2. 新しい引いたカードと過去の状況を比較し Energyshift を指摘してください（例：『前回の停滞はこの新しいカードで動き出しています...』）
+3. ユーザーのトーンに合わせて調整: {emotional_profile}。もしユーザーが"anxious"なら、groundingな安心感を提供してください""")
+    
+    if emotional_profile:
+        tone_guidance = _get_tone_guidance(emotional_profile)
+        context_parts.append(tone_guidance)
+    
+    if contextual_memory:
+        context_parts.append("4. 最後の段落で、単に「彼」についてだけでなく、この14日間での『彼女の個人的成長』についての振り返り質問で終わること")
+    
+    return "\n\n".join(context_parts)
+
+
+def _get_tone_guidance(emotional_profile: str) -> str:
+    """Get tone guidance based on emotional profile."""
+    profiles = {
+        "anxious": "ユーザーは不安を感じやすい傾向があります。groundingで安心感のある Toneを提供してください。",
+        "logical": "ユーザーは論理的説明を好みます。事実ベースの客观的な视角を提供してください。",
+        "hopeful": "ユーザーは希望を持ちたいと感じています。温柔で励ますようなToneを提供してください。",
+    }
+    return profiles.get(emotional_profile.lower(), "")

@@ -1,8 +1,4 @@
-# database Specification
-
-## Purpose
-TBD - created by archiving change rename-database. Update Purpose after archive.
-## Requirements
+## MODIFIED Requirements
 ### Requirement: Database Name
 
 The application MUST use `en_shirube_system` as the default database name.
@@ -13,6 +9,7 @@ Given the application is started without a specific `POSTGRES_DB` environment va
 When the database connection is initialized
 Then it should connect to a database named `en_shirube_system`
 
+## ADDED Requirements
 ### Requirement: Users Table
 
 The system SHALL store user information including subscription status and Stripe integration data in a `users` table.
@@ -68,4 +65,3 @@ The system SHALL store a 2-sentence LLM-generated summary of each reading to pro
 - **WHEN** a reading interpretation is completed
 - **THEN** a summary_for_memory field is populated with a concise 2-sentence summary
 - **AND** this summary is stored in the same reading record
-

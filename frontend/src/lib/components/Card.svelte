@@ -3,37 +3,69 @@
    * Card.svelte
    * Displays a Tarot card with a 3D flip animation, "Mystic Minimalist" styling,
    * and trilingual text support (JP primary, PT secondary).
+   * 
+   * Props:
+   * - id: Card identifier
+   * - name_jp: Japanese card name
+   * - name_pt: Portuguese card name
+   * - name_en: English card name (optional)
+   * - image_url: Card image URL
+   * - isFlipped: Controls flip state
+   * - index: Card position for staggered delay
+   * - is_reversed: Whether card is drawn reversed
    */
 
-  export let id: string;
-  export let name_jp: string;
-  export let name_pt: string;
-  export let name_en: string = ""; // Optional, for accessibility/alt text
-  export let image_url: string;
-  export let isFlipped: boolean = false;
+  interface Props {
+    id: string;
+    name_jp: string;
+    name_pt: string;
+    name_en?: string;
+    image_url: string;
+    isFlipped?: boolean;
+    index?: number;
+    is_reversed?: boolean;
+  }
+
+  let { 
+    id, 
+    name_jp, 
+    name_pt, 
+    name_en = "", 
+    image_url, 
+    isFlipped = false,
+    index = 0,
+    is_reversed = false
+  }: Props = $props();
 
   function handleKeydown(e: KeyboardEvent) {
     if (e.key === "Enter" || e.key === " ") {
       e.preventDefault();
-      // Trigger the click event so parent handles it regardless of input method
       (e.currentTarget as HTMLElement).click();
     }
   }
+
+  let flipDelay = $derived(index * 400);
+
+  let cardTransform = $derived.by(() => {
+    if (isFlipped) {
+      return is_reversed ? 'rotateY(180deg) rotateZ(180deg)' : 'rotateY(180deg)';
+    }
+    return 'rotateY(0deg)';
+  });
 </script>
 
 <!-- Scene Container -->
 <div
-  class="group perspective-1000 w-64 h-96 cursor-pointer focus:outline-none"
-  on:click
-  on:keydown={handleKeydown}
+  class="group perspective-1000 w-40 h-60 sm:w-48 sm:h-72 md:w-56 md:h-80 lg:w-64 lg:h-96 cursor-pointer focus:outline-none"
+  style="transition-delay: {flipDelay}ms"
   role="button"
   tabindex="0"
   data-testid={id}
 >
   <!-- Card Inner (The moving part) -->
   <div
-    class="relative w-full h-full transition-all duration-700 ease-in-out transform-style-3d shadow-2xl rounded-2xl"
-    class:rotate-y-180={isFlipped}
+    class="relative w-full h-full transition-all duration-700 transform-style-3d shadow-2xl rounded-2xl"
+    style="transform: {cardTransform}; transition-timing-function: cubic-bezier(0.4, 0.0, 0.2, 1)"
   >
     <!-- FRONT FACE (The Tarot Art) -->
     <!-- Rotated 180deg so it's "behind" the back initially -->
@@ -101,8 +133,5 @@
   }
   .backface-hidden {
     backface-visibility: hidden;
-  }
-  .rotate-y-180 {
-    transform: rotateY(180deg);
   }
 </style>
