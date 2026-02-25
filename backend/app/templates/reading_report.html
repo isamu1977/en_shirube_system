@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <title>縁しるべ - 恋愛羅針盤鑑定書</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+JP:wght@300;400;600&display=swap" rel="stylesheet">
+    <style>
+        @page {
+            margin: 20mm;
+            size: A4 portrait;
+        }
+
+        body {
+            font-family: 'Noto Serif JP', serif;
+            font-size: 14pt;
+            color: #333333;
+            background-color: #FAF9F6;
+            margin: 0;
+            padding: 0;
+            line-height: 1.8;
+            -webkit-font-smoothing: antialiased;
+        }
+
+        .page-break {
+            page-break-before: always;
+        }
+
+        .divider {
+            border-bottom: 1px solid #D4AF37;
+            margin: 2rem 0;
+            width: 100%;
+        }
+
+        /* ----------------------------------------------------
+           Page 1: The Cover
+           ---------------------------------------------------- */
+        .cover {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            text-align: center;
+            box-sizing: border-box;
+            padding: 2rem;
+        }
+
+        .cover-title {
+            font-size: 28pt;
+            font-weight: 400;
+            margin-bottom: 1rem;
+            letter-spacing: 0.1em;
+            color: #333333;
+        }
+
+        .cover-date {
+            font-size: 14pt;
+            color: #777777;
+            margin-bottom: 4rem;
+        }
+
+        .cover-message {
+            font-size: 14pt;
+            max-width: 80%;
+            margin: 0 auto;
+            color: #555555;
+            line-height: 2;
+        }
+
+        /* ----------------------------------------------------
+           Page 2: The Spread Overview
+           ---------------------------------------------------- */
+        .spread-overview {
+            padding-top: 2rem;
+        }
+
+        .section-title {
+            font-size: 20pt;
+            color: #D4AF37;
+            text-align: center;
+            margin-bottom: 2rem;
+            letter-spacing: 0.2em;
+        }
+
+        .cards-container {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 2rem;
+            margin-top: 2rem;
+        }
+
+        .card-item {
+            border: 1px solid #E5E0D8;
+            padding: 1.5rem;
+            border-radius: 8px;
+            background-color: #FFFFFF;
+            text-align: center;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.02);
+            page-break-inside: avoid;
+        }
+
+        .card-position {
+            font-size: 11pt;
+            color: #888888;
+            margin-bottom: 0.5rem;
+            letter-spacing: 0.05em;
+        }
+
+        .card-name {
+            font-size: 16pt;
+            font-weight: 600;
+            color: #333333;
+            margin-bottom: 0.5rem;
+        }
+        
+        .card-orientation {
+            font-size: 12pt;
+            color: #D4AF37;
+        }
+
+        /* ----------------------------------------------------
+           Page 3: The Reading
+           ---------------------------------------------------- */
+        .reading-content {
+            padding-top: 2rem;
+            font-size: 13pt;
+        }
+
+        .reading-html h1, .reading-html h2, .reading-html h3 {
+            color: #D4AF37;
+            margin-top: 2rem;
+            margin-bottom: 1rem;
+            font-weight: 400;
+        }
+
+        .reading-html h2 {
+            font-size: 18pt;
+            border-bottom: 1px solid #E5E0D8;
+            padding-bottom: 0.5rem;
+        }
+
+        .reading-html p {
+            margin-bottom: 1.5rem;
+            text-align: justify;
+        }
+
+        .reading-html blockquote {
+            margin: 2rem 0;
+            padding: 1rem 2rem;
+            border-left: 2px solid #D4AF37;
+            background-color: rgba(212, 175, 55, 0.05);
+            font-style: italic;
+            color: #555555;
+            font-size: 12pt;
+        }
+
+        /* ----------------------------------------------------
+           Page 4: The 14-Day Anchor
+           ---------------------------------------------------- */
+        .anchor-page {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            height: 90vh; /* leave room for margin */
+            text-align: center;
+            padding: 2rem;
+        }
+
+        .anchor-title {
+            font-size: 24pt;
+            color: #333333;
+            margin-bottom: 3rem;
+        }
+
+        .anchor-message {
+            font-size: 15pt;
+            max-width: 80%;
+            margin: 0 auto 4rem auto;
+            color: #555555;
+            line-height: 2;
+        }
+
+        .anchor-cta {
+            display: inline-block;
+            margin-top: 2rem;
+            padding: 1rem 3rem;
+            border: 1px solid #D4AF37;
+            color: #D4AF37;
+            text-decoration: none;
+            border-radius: 4px;
+            font-size: 14pt;
+            transition: all 0.3s ease;
+        }
+        
+        .anchor-cta:hover {
+            background-color: #D4AF37;
+            color: #FFFFFF;
+        }
+
+    </style>
+</head>
+<body>
+
+    <!-- Page 1: The Cover -->
+    <div class="cover">
+        <div class="cover-title">縁しるべ<br>恋愛羅針盤鑑定書</div>
+        <div class="cover-date">{{ date }}</div>
+        
+        <div class="divider" style="width: 50%; margin: 3rem auto;"></div>
+        
+        <div class="cover-message">
+            あなたの心が少しでも軽くなり、<br>
+            前へ進むための光となりますように。
+        </div>
+    </div>
+
+    <div class="page-break"></div>
+
+    <!-- Page 2: The Spread Overview -->
+    <div class="spread-overview">
+        <div class="section-title">展開されたカード</div>
+        
+        <div class="cards-container">
+            {% for card in cards %}
+            <div class="card-item">
+                <div class="card-position">{{ card.position_name }}</div>
+                <div class="card-name">{{ card.name_jp }}</div>
+                <div class="card-orientation">【{{ "正位置" if not card.is_reversed else "逆位置" }}】</div>
+            </div>
+            {% endfor %}
+        </div>
+    </div>
+
+    <div class="page-break"></div>
+
+    <!-- Page 3: The Reading -->
+    <div class="reading-content">
+        <div class="section-title">鑑定結果</div>
+        
+        <div class="reading-html">
+            {{ reading_html | safe }}
+        </div>
+    </div>
+
+    <div class="page-break"></div>
+
+    <!-- Page 4: The 14-Day Anchor -->
+    <div class="anchor-page">
+        <div class="anchor-title">運命は、あなたの行動で変わります</div>
+        
+        <div class="anchor-message">
+            タロットが示すエネルギーは絶対ではありません。<br>
+            今回のアドバイスを意識して過ごすことで、<br>
+            約14日間で状況は変化し始めます。
+        </div>
+        
+        <div class="divider" style="width: 60%; margin: 2rem auto;"></div>
+        
+        <p style="font-size: 12pt; color: #888888;">
+            ご不安なことがあれば、いつでもご相談ください。
+        </p>
+        
+        <a href="https://line.me/" class="anchor-cta">LINE公式アカウントへ</a>
+    </div>
+
+</body>
+</html>

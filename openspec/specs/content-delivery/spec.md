@@ -21,25 +21,17 @@ The system SHALL display the completed reading on a dedicated results page, show
 
 ### Requirement: PDF Download
 
-The system SHALL provide a `GET /api/v1/reading/{id}/pdf` endpoint that generates and returns a styled PDF document containing the reading results.
+The system SHALL provide a `GET /api/v1/reading/{id}/pdf` endpoint that generates and returns a highly styled, premium PDF document containing the reading results.
 
-#### Scenario: PDF generation
+#### Scenario: PDF generation aesthetic and structure
 
 - **WHEN** a `GET /api/v1/reading/{id}/pdf` request is made for a completed reading
-- **THEN** the response is a PDF file (`application/pdf` content type)
-- **AND** the PDF contains the card artwork, card name, interpretation text, and reading metadata
-- **AND** the PDF uses the same "mystic minimalism" visual style as the web UI
-
-#### Scenario: PDF in user's language
-
-- **WHEN** a PDF is generated for a reading in Japanese
-- **THEN** all text in the PDF (card names, interpretation, headers) is in Japanese
-- **AND** the PDF uses a font that supports Japanese characters
-
-#### Scenario: PDF for nonexistent reading
-
-- **WHEN** a `GET /api/v1/reading/{id}/pdf` request is made with an invalid UUID
-- **THEN** the response status is 404
+- **THEN** the response is a minimum 4-page PDF file (`application/pdf`)
+- **AND** Page 1 contains the Cover with the title and date
+- **AND** Page 2 contains a Spread Overview of the drawn cards
+- **AND** Page 3 contains the AI Reading Content formatted for readability
+- **AND** Page 4 contains the "14-Day Anchor" retention message
+- **AND** the PDF utilizes a premium, editorial aesthetic with elegant typography (e.g., Noto Serif JP).
 
 ### Requirement: Social Sharing
 
