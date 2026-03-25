@@ -94,6 +94,13 @@ export const ja = {
   'footer.terms': '利用規約',
   'footer.privacy': 'プライバシーポリシー',
   'footer.tokushoho': '特定商取引法に基づく表記',
+  'footer.tagline': 'AIと心理学が紡ぐ、あなただけの心の羅針盤。',
+  'footer.menu': 'メニュー',
+  'footer.support': 'サポート',
+  'footer.home': 'ホーム',
+  'footer.library': 'ライブラリ',
+  'footer.about': '縁しるべについて',
+  'footer.contact': 'お問い合わせ',
 
   // Lead Magnet Widget
   'widget.card_back_text': '彼の本音を 1 枚占う',

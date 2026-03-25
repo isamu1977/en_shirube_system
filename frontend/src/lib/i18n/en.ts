@@ -96,6 +96,13 @@ export const en: Record<TranslationKey, string> = {
   'footer.terms': 'Terms of Service',
   'footer.privacy': 'Privacy Policy',
   'footer.tokushoho': 'Specified Commercial Transactions',
+  'footer.tagline': 'A compass for your heart, woven by AI and psychology.',
+  'footer.menu': 'Menu',
+  'footer.support': 'Support',
+  'footer.home': 'Home',
+  'footer.library': 'Library',
+  'footer.about': 'About Us',
+  'footer.contact': 'Contact',
 
   // Lead Magnet Widget
   'widget.card_back_text': 'Consultar os sentimentos dele com 1 carta',

@@ -61,19 +61,22 @@ The system SHALL instruct the AI to produce structured, psychologically deep int
 
 ### Requirement: Dual LLM Provider Support
 
-The system SHALL support both OpenAI (GPT-4o) and Anthropic (Claude 3.5 Sonnet) as interpretation providers, selectable via environment variable, with automatic fallback to the secondary provider on failure.
+The system SHALL support both OpenRouter (using DeepSeek 3.2 by default) and a local Ollama instance (using `gpt-oss:20b` by default) as interpretation providers, selectable via environment variable.
 
-#### Scenario: Primary provider succeeds
+#### Scenario: Using OpenRouter (External)
+- **WHEN** the environment variable `LLM_PROVIDER` is set to `openrouter`
+- **THEN** the system uses the `OPENROUTER_API_KEY` and calls the OpenRouter API
+- **AND** it uses the model specified by `OPENROUTER_MODEL` (e.g., DeepSeek 3.2 / `deepseek/deepseek-chat`)
 
-- **WHEN** the primary LLM provider is configured as `openai`
-- **AND** a reading interpretation is requested
-- **THEN** the system sends the prompt to GPT-4o and returns the response
+#### Scenario: Using Ollama (Internal)
+- **WHEN** the environment variable `LLM_PROVIDER` is set to `ollama`
+- **THEN** the system sends the request to the local Ollama instance specified by `OLLAMA_BASE_URL`
+- **AND** it uses the model specified by `OLLAMA_MODEL` (e.g., `gpt-oss:20b`)
 
-#### Scenario: Primary provider fails, fallback activates
-
-- **WHEN** the primary LLM provider returns an error (timeout, rate limit, 5xx)
-- **THEN** the system automatically retries with the secondary provider
-- **AND** the `readings.llm_provider` field records which provider ultimately served the request
+#### Scenario: No Hardcoded Keys
+- **WHEN** initializing the LLM client
+- **THEN** it strictly reads API keys and base URLs from environment variables
+- **AND** no secrets are hardcoded in the codebase
 
 ### Requirement: Streaming Interpretation Delivery
 
@@ -100,4 +103,11 @@ The system SHALL record the prompt token count and completion token count for ea
 - **WHEN** an interpretation is successfully generated
 - **THEN** the `readings.prompt_tokens` and `readings.completion_tokens` fields are populated
 - **AND** the values match the usage data returned by the LLM API
+
+### Requirement: 12-Card Premium Spread Prompt Generation
+The system SHALL generate a cohesive, context-aware prompt customized for a 12-card premium reading spread.
+
+#### Scenario: User requests a 12-card premium spread
+- **WHEN** the `spread_type` is "premium" (12 cards)
+- **THEN** the system generates a prompt including 12 defined positions and formatting instructions without out-of-bounds index errors.
 

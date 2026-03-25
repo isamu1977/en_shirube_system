@@ -4,6 +4,7 @@
   import { locale } from '$lib/stores/locale';
   import { t } from '$lib/i18n';
   import { browser } from '$app/environment';
+  import Footer from '$lib/components/Footer.svelte';
 
   let { children } = $props();
 
@@ -40,32 +41,5 @@
     {@render children()}
   </main>
 
-  <footer class="w-full py-10 md:py-14 border-t border-[#EAE5DF]/5">
-    <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-      <div class="mb-4 flex flex-col sm:flex-row sm:justify-center gap-4 sm:gap-8 text-sm text-[#A9A39C]">
-        <a href="/terms" class="hover:text-[#C5A880] transition-colors duration-200 cursor-pointer">{$t('footer.terms')}</a>
-        <a href="/privacy" class="hover:text-[#C5A880] transition-colors duration-200 cursor-pointer">{$t('footer.privacy')}</a>
-        <a href="/tokushoho" class="hover:text-[#C5A880] transition-colors duration-200 cursor-pointer">{$t('footer.tokushoho')}</a>
-      </div>
-
-      <!-- Language Toggle -->
-      <div class="flex items-center justify-center gap-3 mb-4" aria-label="言語を選択 / Select language">
-        <button
-          type="button"
-          class="text-xs font-sans tracking-widest transition-colors duration-200 cursor-pointer focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-[#C5A880]/40 {$locale === 'ja' ? 'text-[#C5A880] font-bold' : 'text-[#A9A39C]/50 hover:text-[#A9A39C]'}"
-          onclick={() => locale.set('ja')}
-          aria-pressed={$locale === 'ja'}
-        >JP</button>
-        <span class="text-[#EAE5DF]/10 text-xs" aria-hidden="true">|</span>
-        <button
-          type="button"
-          class="text-xs font-sans tracking-widest transition-colors duration-200 cursor-pointer focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-[#C5A880]/40 {$locale === 'en' ? 'text-[#C5A880] font-bold' : 'text-[#A9A39C]/50 hover:text-[#A9A39C]'}"
-          onclick={() => locale.set('en')}
-          aria-pressed={$locale === 'en'}
-        >EN</button>
-      </div>
-
-      <p class="text-xs text-[#A9A39C]/60">&copy; {new Date().getFullYear()} 縁しるべ. All rights reserved.</p>
-    </div>
-  </footer>
+  <Footer />
 </div>

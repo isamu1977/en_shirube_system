@@ -1,8 +1,4 @@
-# library Specification
-
-## Purpose
-TBD - created by archiving change add-tarot-library. Update Purpose after archive.
-## Requirements
+## MODIFIED Requirements
 ### Requirement: Tarot Library Index Page
 The system SHALL provide a browsable library page at `/library` displaying all 78 tarot cards with search and filter functionality, using the standardized Enshirube back image for unrevealed cards.
 
@@ -52,16 +48,3 @@ The system SHALL provide a dedicated page at `/library/[slug]` for each card wit
 #### Scenario: SEO structured data
 - **WHEN** a card detail page is rendered
 - **THEN** JSON-LD structured data is included for rich search results
-
-### Requirement: Library Navigation
-The system SHALL provide navigation links to the library from the header and breadcrumbs on detail pages.
-
-#### Scenario: Header navigation
-- **WHEN** the user views any page
-- **THEN** a "Library" link is visible in the header
-- **AND** clicking it navigates to `/library`
-
-#### Scenario: Breadcrumb on detail page
-- **WHEN** a user views a card detail page
-- **THEN** breadcrumbs show: Home > Library > [Card Name]
-
